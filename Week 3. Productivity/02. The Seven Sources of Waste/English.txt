@@ -1,0 +1,118 @@
+The absence of waste makes for
+high productivity. The last couple of years it
+has become very fashionable to talk about lean operations. This session today is about lean. It is about waste. And it is about waste reduction which is
+the process of making an operation lean. Taiichi Ohno, the former chief engineer
+of Toyota, wrote a wonderful book outlining the principles of
+the Toyota Production System. Ohno writes,
+that moving is not necessarily working. This is really deep, let me repeat this. Moving is not necessarily working. And on a session on process analysis,
+we talked about idle time as a way that workers are unproductive. They're hurting us on labor productivity. Ono, by outlining these
+seven sources of waste that we're going to talk about in this session, reminds us that there are other ways you
+can be unproductive than being idle. We'll talk about the Toyota
+production system in great length, later on in this course. A cool byproduct of this is that you're
+going to have a little bit of Japanese vocabulary to impress your friends and
+your coworkers. Waste and and this session is
+about the seven sources of waste. So first of the seven sources
+of waste is overproduction. At a risk of upsetting my fellow Germans, let me share with you
+the following example. The average German trashes 81.6
+kilograms of food every year. The reason for that? Germans like to buy in
+large package sizes. This, however,
+creates a mismatch between supply, what they get into their fridge,
+and demand, which is what they eat. This is inventory, which we know is bad just from a working
+capital perspective of the household. But since inventory can also get obsolete,
+described problem. Let me illustrate
+the second source of waste, transportation was another German example. Crabs are fished in the North Sea next
+to the German and Dutch coastline. They're then shipped
+2,500km south to Morocco. Labor is cheap in Morocco and
+that's where the food is prepared. It is then shipped back to Germany. This shipment back and forth truly reflects on this idea
+of moving but not really working. There is no direct value ads by shipping
+these scrubs up and down through Europe. Whenever transportation occurs,
+we see a poor layout of the process. And we are creating lots of extra work
+that is not necessary at length to the productivity of the operation. The third form of waste is rework. Rework refers to repeating or correcting
+an operation because of quality problems. An old Japanese quality saying goes,
+do it right the first time. Rework is a pain. Rework consumes capacity and take it away from flow units
+that could be otherwise served. Rework is, by no means,
+limited to the world of manufacturing. For example, in healthcare operations, readmission to the ICU is often
+referred to as a bounce back. Patients get discharged from the ICU but then later on, develop complication in the
+regular units and bounce back to the ICU. From an operations perspective,
+this is rework. Re admissions to the hospitals
+are also a form of rework. Dealing with re admissions
+has been a major component of the Affordable Care Act, and has become a big thing these days in
+the healthcare operations community. Let me illustrate
+the first source of waste. Over processing is another
+healthcare examples. Oftentimes, you'll notice,
+when you're in a hospital, it's not entirely clear how long
+are you going to stay there. The discharge of a patient is crucial for
+the capacity management of the hospital, but often the hospital
+lacks clear policies and standards of how long
+the patient should stay. To the extent that the patient
+stays longer than needed, the hospital is wasting
+through over processing. In the day to day life, over processing simply corresponds to
+stirring a fully mixed cup of coffee. Again, typically the driver
+behind over processing is that the operator really doesn't know what the
+exact standard of his work is going to be. Just as transportation was a form
+of moving, but not working. You often find a similar
+effect within a work space. The idea of unnecessary motion,
+the fifth source of waste, is that you can achieve tremendous
+productivity improvements by a careful and economic design of the work space. You see this when you
+look at great athletes. I'm a big cycling fanatic. I often admire the great athletes
+as they sit on their bike with their upper body not moving at all,
+all the action being in the legs. They get all the energy,
+all their capacity is moved towards where it matters,
+opposed to moving the upper body, which really doesn't help
+them get forward on the bike. The sixth source of waste is inventory. Warner viewed this as
+the biggest waste of all. His view was product
+has to flow like water. Wherever there's inventory piling up, we
+have a mismatch between supply and demand. For physical products,
+inventory takes the form of raw materials, work in process inventory,
+or finished products. This type of inventory is bad
+because it costs us money. Remember our discussion
+on the inventory turns. But it is also bad because
+it requires storage space. Inventory, as we previously discussed, is by no means limited to
+the world of manufacturing. Loan applications in a bank might not
+require a lot of real estate, but certainly an expensive form of inventory because it leads to customer wait time
+which is a sudden source of waste. Waiting the seventh and final source of waste is often
+a direct consequence of inventory. This is a situation where a flow
+unit is waiting for a resource. However I noticed that also
+the opposite can happen. The resource can wait for the flow unit. In this case,
+waiting takes a form of idle time. Something that we have
+discussed at great lengths, earlier on in the process analysis module. The impact of of Arnaut work, and the success of the production system,
+was long ignored in the western world. It took until the 1980s and team of researchers of the International
+Motor Vehicle program around Jim Womack to demonstrate the real power
+of the Toyota production system. The researchers went
+out into the world and benchmarked the productivity
+of automotive plants. In this table here, we see a comparison between a GM plant
+of the 1980s and a Toyota plant. The table compares a couple of dimensions. Gross assembly hours per car captures
+the labor content that we've introduced previously. You'll notice that the Toyota
+employee take only about half of the time to put
+a vehicle together. Assembly defects for 100 cars captures how many rework needs
+there are at the end of the red line. You notice again there are factor of
+three difference in productivity. Similar patterns exist for
+the real estate requirements. And then more significantly
+in terms of the inventory. Our GM at the time took
+two weeks of inventory. Toyota employees only required two hours
+of inventory set at their assembly line. So this was the seven sources of waste. You notice that the first five sources,
+overproduction, transportation, rework, over processing,
+and unnecessary motions. In many ways we are resource centric. They look at the worker and ask what
+did the worker do in the last hour. Pointing out that not every thing that
+the worker does is actually valuette. An experienced management consultant
+has once told me the following trick. When you go through the process,
+when you visit a restaurant, a manufacturing plant, just stand still. Then you turn around for
+about 360 degrees. And you count the workers that
+you see as you're doing this. Count those that are directly
+adding value to the customer. And count those that are idle,
+or that our engaged and reworked transportation motions or
+other things that are waste. This gives you very quickly and very casually a sense of how
+much wastage is in the process. Now, a word of caution. Arguably, this is not how you're
+going to make yourself popular at work, so don't just stand there turning around
+and coming up with wise thoughts. But I think you will agree with me that
+lots of the things that we do at work is not necessarily adding
+value to the customer. As Ohno reported,
+moving is not necessarily working. The last two sources of waste,
+inventory and waiting, are really two
+sides of the same coin. This is just a reflection of little slow. They look at waste from the customers,
+from the floor unit's perspective. Pointing out that most of the time, we just sit in the process
+without getting any value for it. Now, people often refer to
+an eighth source of waste. This is the waste of intellect. Oftentimes, managers think of
+their workers as human robots. Just there to execute orders. Wasting the intellect of workers misses
+the opportunity of engaging the workers in problem solving and process improvement. This is one of the key ideas behind Kyzan, a piece of Toyota production system
+that is upon worker involvement.

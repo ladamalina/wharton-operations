@@ -1,0 +1,94 @@
+I would like to start this
+module on productivity by sharing a little quote with you. I will read the quote and you'll have
+to guess the person who said this. Here we go. The conservation of our national resources
+is only preliminary to the larger question of national efficiency. I'll give you a hint,
+it was a U.S. President. Obama? George W.? Ronald Reagan? Turns out the person who said
+this was Theodore Roosevelt. More than a hundred years ago, Frederick
+Winslow Taylor wrote a wonderful book known as The Principals
+of Scientific Management. This was the opening line of the book. Productivity was a major theme
+a hundred years ago, and is still a very current topic today. We will start out our module on
+productivity with this first session in which I will introduce some more
+academic definitions of productivity. What I love about Taylor's work though, it's very much driven by
+observing people in action. And so the rest of module, I promise you,
+will be much more hands on. As mentioned previously,
+we can define productivity as the ratio between the units of output produced and
+the input that is used. For example, we can define labor
+productivity as 4 units per labor hour. Units might be insurance claims, it might
+be vehicles or it might be patients. And so that you can think about
+the output produced, the vehicles, the insurance claims, or the patients per
+labor hour as a productivity measure. Notice that those are exactly
+the processing time that we discussed previously. The beauty of this example is that
+the only input is labor time. If you think about affirmative
+very high level perspective, there are many other input
+factors including capital, labor, materials,
+services that the firm uses and energy. People refer to the multifactor
+productivity as the output divided by the dollar values of all
+of these input factors. Now stick with the example for
+labor productivity a little longer. What keeps us from having
+a perfect productivity? Think about the output in the productivity
+definition as productive time or value add time and
+the input as the total time. Productivity is then simply the percentage
+of labor time that is spent productively. Now clearly, you cannot have a productivity in
+this case of higher than 100%. You can never get more than 60 productive
+minutes out of a worker per hour. Similarly, if you think about
+the energy efficiency of your house, you might measure the output as the temperature gains that you
+have in your living room and the input as the amount of oil or gas that
+you burn in the basement in the heater. Again, you will never generate
+more heat in the living room than you have consumed in terms of
+primary energy in the basement. The interesting question
+on both of these examples are really what we'd use
+as the productivity. This gets us to the idea of waste and
+inefficiency. Wastes are those things that
+are driving down productivity and are really at the heart of understanding
+the productivity in an operation. With the concept of inefficiency in mind, let's revisit the example
+from the introduction. This was a group of call centers that
+we benchmarked along the dimensions of responsiveness and productivity. For a call center, it is easier
+to achieve a high productivity. Just staff so that your utilization
+is really, really high. Now the problem with that of course,
+is that your responsiveness will be very poor if you have
+a very high level of utilization. On the other hand, you can increase your responsiveness if
+you keep your utilization very, very low. Good for your responsiveness,
+bad however, for your productivity that there exists a tension between those two
+forces, responsiveness and productivity. Now consider call centers A, B and C. All of these call centers are in a line
+that we've previously defined as The Efficient Frontier in the industry. This means that there is no player,
+no company, no call center that dominates
+competitor A, B or C. When I say dominates, I mean firms
+that are both faster than we are, and at the same time also cheaper. Now you notice that competitor
+D is not on the frontier. For competitor D we have
+a distance to the frontier, and that is what an inefficiency looks like
+at this very high level perspective. Let's bring the concept of
+the efficient frontier to life by looking at some data from
+The US Airline Industry. What I'm showing here is on the X axis, I'm plotting the efficiency
+of the major U.S. carriers. Here efficiency is measured by how much
+it costs an airline to produce a certain number of seat miles. On the Y axis I'm showing what the airline is able to command in
+terms of its prices for these miles. Observe the Frontier. Observe how these airlines are lining
+up on a line that looks like this. On the one extreme, you have Hawaiian,
+which is not able to get high prices, but because of its very
+focused route structures, able to provide an amazing efficiency. On the other extreme, you have US Airways. The company is clearly able
+to command high prices, but has a horrible efficiency. You notice here how Southwest has
+been able to break that Frontier and shifted upwards to a new level. Southwest entered this market in many
+routes by providing its superior operations, allowing it to charge almost
+the same prices as these legacy carriers, yet operating at an amazing
+level of productivity. Now the data that I just showed
+you was data for the year 1996. Let's take a look what has happened
+in the airline industry since then. This is updated data from 2011. We have the same X axis, the Efficiency,
+and the same Y axis, the Yield. Notice how Southwest, previously
+a star on the productivity side, is now simply in the middle of the pack. We'll explore the reasons of
+Southwest's decline in productivity later on in this module. You'll also notice how
+the legacy carriers, American, United, US Airways, Continental, Delta, have basically suffered
+an enormous loss in pricing power. They have kept more or
+less efficiency, but they have dropped down
+on the revenue side. The new darlings from
+an operational perspective are companies such as JetBlue and
+Virgin America. They have redefined the Frontier and
+the operations of the airline industry. We define productivity as the ratio
+between output and input. We will pick up that definition
+later on in this module when I introduce a concept of productivity
+ratios, which is a very powerful tool that can help you analyze aggregate
+firm-level data and compare your productivity with the productivity
+of peer companies in your industry. We also observe the enemy of productivity,
+inefficiencies and waste. We defined inefficiencies and
+waste as the distance between your operational performance and
+the efficient frontier in an industry. At present, these inefficiencies,
+this waste looks like a very abstract almost ivory tower-like concept. I promise you that in the next
+session this will become much more tangible and hands on.
