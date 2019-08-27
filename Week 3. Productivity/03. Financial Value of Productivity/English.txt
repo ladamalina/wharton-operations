@@ -1,0 +1,68 @@
+In most organizations I've worked with,
+I've encountered a large disconnect between the world of operations and
+the world of finance. Finance people wear a suit. They read the Wall Street Journal,
+and they deal with very big numbers. Operations people look like me. They sit with a stopwatch
+at the bottleneck. Trying to count the seconds that go by. The disconnect that this creates is very
+unfortunate, because operations people tend to often be confused chasing so
+many performance measures. And they forget that your productivity
+improvements, improvements along other operational performance measures
+are not the goal in it by themselves. For a for profit organization
+the goal is to make money, not to increase productivity. On the other hand, the finance folks
+often struggle with the challenge of how can they go about making
+their financials more attractive. Even as a CEO you don't show up
+to the process on Monday morning. Roll up the sleeves and says well today
+I'm going to improve my margins by 10%. Operational things are the things
+that are actionable for management. For this reason I would argue
+that understanding the operations remains at the heart of business. Lets go back for
+our Subway restaurant analysis. We are previously at 95. Station two is the bottom line with
+the processing time of 47 seconds per customer. Let's assume that our demand
+is 100 customers per hour, and that each customer orders
+six dollars worth of food. Let's assume further that the purchasing
+cost of this food is $1.50 and that we have four employees
+making $15 per hour. Finally, let's assume that we have fixed
+costs in term of rent, franchise fee, marketing, and overhead of roughly
+$250 per hour during peak times. How much profits will we make? Let's start computing the top line. For this, first of all,
+we need to compute our process capacity. Since there are 3,600 seconds in the hour,
+we know that our capacity is driven by the bottleneck and corresponds to
+76 sandwiches or customers served. Next, we know that the flow
+rate is the minimum between the demand and the capacity. Not surprisingly, this tells us that we're
+going to serve 76 customers per hour. If we multiply this, with the money
+that we are making per customer, we see that we are having an expected
+revenue of $459 per hour. Now, the food costs are driving our cogs. And so
+the food costs are simply our flow rate, multiplied with a $1.50. Our staffing is simply the number of
+employees times the weight trade. And fixed cost as simply, the $250. If you combine these numbers,
+we're going to get our bottom line profit. In our case here,
+this is $459 minus the cogs minus the staffing,
+minus $250, a fixed cost. That gives us $34 for
+every hour of peak volume. How do the profit number change as we
+change some of the operational variables? First consider a change in food cost. Imagine, in the very meaning of the word,
+that we could slice a salami more thinly. We would get a saving of, say,
+10% in our food cost per customers, so instead of $1.50, we would
+reduce the cost per order to $1.35. We see the profits go up from $34 to $46. An extra $12 or
+roughly 33% relative to the baseline. Now lets go back to this baseline and evaluate the impact of
+productivity improvement. In the same way, lets assume where we can cut the
+processing time at the bottleneck by 10%. This would go down from 47
+seconds to 42.3 seconds. The input of profits is amazing. You notice that profits go
+up from $34 to over $72. This corresponds to well over
+100% increase in profit. Just as a result of a 10%
+productivity improvement. Of course this hinges on the assumption
+that we have enough demand. Operations and our demand constraints are not going to be able to
+materialize big changes in profits for productivity improvements unless
+they are able to lay off workers. In contrast if you're constrained
+by capacity, productivity improvements at the bottleneck make up for
+real profit improvements. In this case we see that
+every second counts. Four seconds at the bottleneck
+means doubling your profit. Understanding this connection between
+the operational variables and the financial variables is key. Every second counts. In this session we saw that productivity
+improvement in an operation can lead to very significant
+financial rewards. However, not all seconds
+are created equal. If you are improving the productivity
+of a non-bottleneck resource, or if you are currently constrained by
+demand rather than by your capacity, productivity improvements might translate
+into small labor costs reductions, but they will not have the big rewards
+that we saw in the Subway case. Such big rewards tend to happen primarily in organizations that
+have high fixed costs. High fixed cost operations tend
+to have lower marginal costs and so every unit of flow. Every extra customer that you serve. Their revenue will go directly
+into the bottom line. Finding out what areas in an operations
+will lead you to the biggest financial rewards is a key skill that we
+will continue to work on in this module.

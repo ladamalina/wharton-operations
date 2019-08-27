@@ -1,0 +1,56 @@
+Last session we saw how small changes
+in operational variables can have big financial rewards. One tool that helps us understand that
+relationship between operational variables and financial variables is the KPI tree,
+where KPI stands for key performance indicators. KPI trees are powerful ways to visualize. So the relationship between
+the many operational variables and the financial bottom line. KPI creates also the starting point for sensitivity analysis that
+would formally let us identify those operational variables that yield
+the biggest financial improvements. Let's go back to our restaurant
+example from the last session. And see KPI trees in action. The number that we care about in
+the restaurant is the daily profit. What drives this profit? Profit is simply revenue minus cost. What drives the revenue here? Revenue is driven by the flow rate,
+the number of customers that we serve. [SOUND] Times the dollars
+that we make per customer. In our example there was $6 per customer. Flow rate, in turn, is defined as
+a minimum between demand and capacity. The capacity is driven by
+the bottleneck because there was a step with the lowest capacity between
+stations one, two, and three. Now a case. Station two was a bottleneck, and then was
+in turn driven by the processing time of station two, which consisted of the time
+of putting the onions on the sandwich, lettuce, tomato,
+everything else to boxing the napkin. Along with the order. On the cost side of the business,
+we have fixed and variable cost. The variable cost are driven
+simply by the number of sandwiches that we make times
+the dollars per sandwich. Or the dollars per order. These in turns are driven by
+the ingredients in the sandwich, including the bread. The meat, the cheese, the vegetables and again everything all
+the way up to the napkin. So we can think of a KPI tree as
+basically one big mathematical equation that combines the many variables that showed up in our spreadsheet analysis
+before the data we need to drive profits. In one visual way. Evaluating changes in
+the leaves of the tree and predicting the impact on profits is
+the idea of sensitivity analysis. For example, we can ask ourselves
+how much more profits do we make if we can put the onions
+on the sandwich faster? How much more profits would we make
+if we would reduce our fixed costs? If we would source our bread any cheaper? Mathematically, this
+corresponds to a derivative. We take the partial derivative of profits
+with respect to an operational variable. In practice, however, as we saw in
+the previous session evaluating the impact of change is much easier. It doesn't require any calculus. All we have to do is build an Excel
+spreadsheet and evaluate the changes. Why was the impact of a productivity
+change so big on profit? Think about our business from
+a financial perspective. Let's plot revenue and
+cost as a function of flow rate. Our revenues are quite simple. They go up at a slope of $6 per
+every customer that we serve. Our costs, however,
+are a little different. Remember that we have to pay $250 in terms
+of fixed cost, and another $60 of labor. This amount of money we have to spend
+even if we don't sell any sandwiches. From then onwards this line slopes up, but now at a much lower slope
+than the revenue curve. In fact the slope is simply $1.50 per
+customer capturing our variable cost. You see that here we have a point
+at which we stop making money. This is typically called
+the break even point. In our baseline analysis, in the previous session, we noticed that
+we were just beyond that break even point. We made a little bit of profit. However, from then onwards having
+an additional customer through the system, has a very strong marginal effect. Every customer, that we serve, brings us
+$4.50 that go right into the bottom line. Is the juice worth the squeeze? Changing an operation is hard but there are many operational
+variables that we could focus on. The KPI tree is a powerful
+tool that helps us identify those operational
+variables that we should focus on. The KPI tree is also a powerful visual
+that helps us understand the casual system that connects all these operational
+variables with the financial bottom line. So I suggest to you that you always start
+any operational improvement projects by first mapping out the process,
+drawing out the process flow diagram. Then you do the process analysis
+calculating the operational variables that we introduced in the first module. And then you build a KPI tree to help you
+understand how these operational variables drive financial performance.
