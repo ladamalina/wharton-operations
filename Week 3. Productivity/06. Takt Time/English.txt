@@ -1,0 +1,101 @@
+One of the most obvious forms of
+capacity wastage is idle time. Idle time happens for two reasons. First, by definition,
+every resource that is not the bottleneck would have some excess capacity
+compared to the bottleneck. This will translate into idle time. Second, if you're currently
+constrained to a demand, even the bottleneck resource
+will have some idle time. In this session we will talk
+about ways of reducing idle time. First, we'll talk about
+the concept of line balancing. Line balancing is about sharing
+the work equally among the resources in the process. We'll then talk about scaling
+up the process capacity as the amount potentially fluctuates. We can add or subtract workers from
+the line, adjusting our capacity and saving us from incurring idle
+time when the demand is low. Let us re-visit the subway example. Early on, we computed that
+the labor content at the subway line was 120 seconds per customer. Now we assume that we have 80
+customers arrive every hour. Previously we had determined
+that the processing times for the three operators were 37 seconds
+per customer at station one, 46 seconds, and 37 seconds at
+station two and three respectively. The idea of line balancing is to
+divide up the work evenly, so we want to take some of the work from worker
+two and spread it to worker one and three. A powerful way of doing this is
+by first reminding ourselves of the flow rate that this
+process has to operate under. This is the idea of takt time. Takt time determines
+that we have to produce a unit every 45 seconds
+to keep up with demand. After all, every hour, 3600 seconds,
+we have to make 80 units. So 45 seconds per unit is the takt time. Tact is a word that comes from
+the German word Takt which stands for the beat of the music. In the process everyone has to
+dance to the beat of demand. Every person should serve a customer and move him forward to the next
+station at a speed of 45 seconds. Assuming a perfect line balance,
+the takt time also helps us find how many people
+we need to staff in the line. 120 seconds of labor content
+divided by 45 seconds of takt time gives us that we need, round it up,
+three people to do the work. Now admittedly,
+this is an ideal calculation. I cannot have worker 2 put half
+of a tomato on the sandwich and worker 3 put the other half. The task often cannot be divided
+as easily as second by second. However I find that starting with such
+an ideal calculation, that's why it's called the target manpower, is often
+very eye opening and it reminds you of the true productivity improvement
+potential that exists in the process. It is then up to you to design
+the task of the process so that line balancing will become possible. Now imagine that demand picks
+up to 160 customers per hour. The takt time changes. We now have to divide 3,600 seconds
+in an hour divided by 160 units per hour,
+equals to a new takt time of 22.5 seconds. So instead of serving
+a customer every 45 seconds, we're serving a customer every 22 and
+a half seconds. The takt of the music has picked up. This is also reflected in our
+target manpower calculation. We're dividing the labor content, which is
+state unchanged at 120 seconds per unit, by the new takt time, and see that in
+order to fulfill this increased demand, we have to increase our staffing
+number from three to six. Let's summarize our calculation for
+line balancing. Line balancing starts with
+computing the takt time. It's the demand that drives everything
+as we're executing the process. Once we have the takt time,
+we take the various tasks that make up for the flow unit, and
+we will divide them among the workers so that the total processing time for
+each worker is less than the takt time. You continue to do this till all of
+the tasks are assigned to the workers. As you're doing this you try to keep
+the number of people at a minimum. This can be written as quite a fancy
+mathematical problem, but oftentimes, at least for smaller scale problems, it can be just tweaked by trying
+this out a couple of times. Now, I want you to think
+about the following question. What happens to labor
+utilization as demand goes up? To see the effect on labor utilization, first ask yourself what happens
+to takt time as demand goes up. More demands means shorter takt time. This makes balancing the line harder. To see this,
+think about the opposite effect. Think about the case of balancing
+a line with just one person. Balancing a one person line is trivial. That person will have little idle time,
+and we have a very high labor utilization. As you go in the opposite dimension,
+you add more people to the line and reduce the takt time,
+line balancing becomes increasingly hard. Finally, I want to acknowledge that
+the world is certainly not one big math problem to solve. The same holds for
+the case of line balancing. Instead of finding some fancy
+algorithm along the lines that I previously described, in practice
+line balancing is often done dynamically by walking around and
+looking where inventory piles up. We can then go and reassign either people
+or tasks so that the flow goes faster. This typically starts by looking
+at the bottleneck resource. Keep in mind that any activity that
+we move away from the bottleneck has a potential to increase capacity. Balancing one bottleneck steps
+however is often a fruitless task. Once you understand line balancing, you can also start dealing
+with changing demand. Consider the demand
+trajectory shown up here. We will refer to this
+pattern as seasonal demand. For now let's just observe that
+the demand changes predictively over the course of the day. The first thing that you
+do is you level the demand. You want to avoid to
+change your takt time or your staffing level
+every minute by minute. And so you come up with the level of
+demand while you hold the demand for an hour as fixed. This is arguably an imperfect
+approximation, but better and more practical than changing your
+staffing level every minute. Once you have a level demand,
+you translate that into a takt time. Remember, more demand
+means a shorter takt time. Finally, you take this takt time and you translate this into
+a manpower calculation. This is done based on the target manpower
+calculation that we reviewed earlier on. As you see in the example here,
+in the low period settings I can get away with three workers
+carrying out the six tasks. Once demand picks up,
+my takt time gets shorter and I have to bring in extra people. This helps us to scale up and
+down the process as demand changes. Capacity tends to be fixed,
+while demand changes often over time. This leads to temporary mismatches
+between supply and demand. Customers wait or resources are idle. The ability of an operation to adjust
+its capacity and scale it up and down in response to a varying
+demand is a form of flexibility. Most operations create their flexibility
+by using either temporary workers, or by using their workers overtime. In this session we saw how
+a takt time can be used to drive the demand down
+into the operation. We saw how we can use takt time
+to compute the staffing level required to run a process. And we also saw how takt time can be
+used as a form of line balancing.

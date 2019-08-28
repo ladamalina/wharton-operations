@@ -1,0 +1,141 @@
+Earlier on this module,
+I praised the work by Taylor and. Both of them were passionate about
+going out to the front line to study an operation based on observation, as opposed to studying operations
+based on running some XL spreadsheet. We quoted said that moving is not working. In this session we'll introduce the
+overall equipment effectiveness framework. I know this sounds technical at first, but
+I can promise you that it is probably one of the most powerful frameworks for
+studying productivity improvements. The overall equipment effective framework,
+or OEE framework for short, counts all the time that
+you have available on a resource. That might be human person. It might be a machine. And it starts with this time, and then identifies all these things
+at the resource that are waste. By taking these pieces out
+of the available time, you are left with the time that
+the resource is really productive. This is the overall
+equipment effectiveness. It's a fraction of time that
+the resource is adding value. This is an important ingredient when you
+are then predicting the upside of any operational productivity improvements. Consider a piece of equipment
+in a production process. Equipment can be expensive,
+especially in production settings, such as semiconductors, or
+highly automated assembly. We want to find out how much of the time the equipment is actually
+used productively. Say we study the equipment for 100 hours. The first thing that we observe is that
+from these 100 hours the machine is not running all the time. The machine is what we call in downtime. Downtime can be driven by things such as
+machines break downs, or changeovers. Changeovers we'll discuss in
+the module on product variety. Those are times when the machine
+is moved from producing one type of product to another. This, really then, leaves us with fifty-five hours
+that the machine is running. But even those fifty-five
+hours are reduced further. Idle time because of line balancing
+issues, and reduced speed because of poor operator training, drives us
+down in our example to forty-five hours. But it gets even worse. From those forty-five hours
+of net operating time, we're producing defects, and we have to ramp up production, producing
+scrap, potentially during startup. In this example here, the total number of losses accumulate to
+an overall equipment effectiveness of 30%. This is simply driven by the 55% of
+the time that we have as downtime, 82%, namely,
+the ratio between forty-five and fifty-five did we lose before
+because of lower speed, and 67%, thirty relative to forty-five that
+are driven by quality losses. So we notice that our overall equipment
+effectiveness is 30%, we get eighteen minutes of value out of each hour of
+work that we spend at the machine. Often times that you will notice, is
+that even with an OEE of 30%, the people actually operating the equipment might
+require that you invest in more equipment. After all, the equipment and the workers around it,
+seem to be busy most of the time. But, as reported, moving is not working. The OEE helps us to realize that in this
+case we have almost a 3x in productivity improvement potential without investing
+anything further in additional equipment. Let's apply the OEE framework
+to the case of an aircraft. We can think of the equipment
+as an aircraft seat. The seat is only adding value
+if it is in the air and it has a paying customer sitting in it. What percentage of the time do you think a
+typical airline seat actually adds value? When I ran the analysis for the big U.S.
+carriers, I found the following. On the left here I started
+with 365 days in the year, and the twenty-four hours that are in a day. Most of the time is lost because
+the plane is either at the gate, or it is in maintenance. This is not too surprising. Most of the effect is driven by the fact that nobody wants to fly from Philadelphia
+to Chicago at 2:00 in the morning, and it's just not profitable for
+the airlines to fly at crazy hours. The other chunk here is maintenance
+that is required for the planes. This leaves us with an amount of time that
+is typically referred to as a block time. This is the time that
+the plane is actually moving. But moving includes taxi and landing, not, at least from the customer's perspective,
+necessarily a value add. After subtracting this as a 10% of
+the time, typically, that an aircraft is in taxi and landing, we get
+the time that the seat is in the air. But not every minute that the seat is
+in the air is adding value because seats often fly empty. Typical aircraft utilizations
+are in the low eighty percentages. And so, we have to subtract
+another ten to 20% to adjust for the fact that we're flying empty seats. If you combine all of these effects
+together, and if you compute the AEE OEE of the aircraft seat, you typically
+get a number that is around 30%. You might think that that number is low,
+but I can assure you it's dramatically higher
+than what it was some ten years ago. The OEE framework applies to equipment
+as well as it does to people. So folks at McKenzie,
+where I've picked up the OEE framework, in that case it's OPE,
+the overall people effectiveness. Let me illustrate this with an example. In a research collaboration that I'm
+currently conducting with a VA hospital system, I'm trying to measure how
+doctors are spending their time. I'm trying to determine their OPE. Lets start with the total time that
+we have the doctor on payroll. Well, doctors are sometimes on vacation,
+and sometimes sick themselves, which gives us a total time
+the doctor is in the practice. Now, not every minute of the time
+is booked for appointments. Even though doctors in primary care,
+in particular, tend to be very busy, they still have some empty appointment slots
+that leads to idle time for the doctor. This gets us to the total time that
+the doctor is booked for appointments. Some of the patients, however, have
+an appointment and then don't show up. No shows, or cancellations,
+thus further reduce the OEE of the doctor. After adjusting for cancellations, we get the total time that
+the doctor spends with the patient. This is where things get dicey
+from a data perspective. Most health systems that I know have
+relatively little data above what actually happens during
+the doctor patient encounter. In the case of the VA system,
+we used video cameras to document minute by minute what goes on when
+the doctor speaks to the patient. It's interesting to see that a good number
+of the patients that are spending time with the doctor really don't have
+to be seen by a medical doctor, and could be seen easily by a nurse,
+or another physician extender. Moreover, if you go minute by minute
+through the processing time, typically that's a twenty minute encounter, you find
+that the doctor spends many things doing that are not really requiring
+the knowledge of a medical doctor. Rewriting scripts for refills for medications, patient counseling,
+and social work. This gets you the real true
+value add time for the doctor. Okay. Now it's your turn to compute an OEE. Consider the following example. We have a car manufacture that
+operates a 3D printing lab where computer models of designs
+are turned into physical models. The lab is open here for
+twelve hours a day. Now, you see that, the lab spends a fair bit of time each day
+on things that are not directly value add. Value add time is the seventy
+minutes that it takes to crunch out one of these models, and
+lots of other things are going on. So, take a look for yourself,
+you might want to pause this video and ask yourselves the following
+two questions. How many good models are produced every
+day, and what is the OEE of this lab? Now to see this,
+consider the following calculation. Let's start with the question of how
+many good models are produced each day. We know that we have 720
+minutes available per day. Of that, thrity minutes per day are
+subtracted because of the startup effect. That leaves us with 690 minutes a day. If we ask ourself how long it takes to
+produce one model, we have to go for seventy minutes of production
+plus thirty minutes of set up. So if you take 690 minutes
+divided by 100 minutes, nd remember here that you can only
+start a new job if you are going to finish it during the time,
+before 6:00 P.M., you see that you're going to get each day,
+you're going to get six models per day. Finally, of those six models one-third,
+i.e., two, one-third need to be scrapped, and thus, it leaves
+you with four good models per day. Now you do the calculation backwards. From these four models per day, basically, that warrants 280 minutes of
+productive times per day. You multiply this with the six days
+a week that the lab is opening, because there's one day of maintenance,
+that gives you a total productive time per week of 1,680 minutes. This is 1,680 minutes per
+week of value add time. However, on the other hand,
+you can clearly simply see that twelve hours a day,
+sixty minutes an hour, and seven days a week corresponds to
+5,040 available minutes per week. So if you want to draw a little chart here
+this 5,000 is the available time, and this time is a real value add time. The OEE is simply the ratio of this
+number to this number, which is 33%. If you want to be more fancy in
+the graphics, you can now take out for each of these losses, be it the scrap,
+the start up effects, the set up times, or the maintenance, you can quantify the magnitude as
+you go from the left to the right. But as a first start, I would always
+encourage you to start with the very left, the available time, and
+at the very right, the value add time. Now let me end the session by reading
+you another quote from Frederick Taylor. Employers derive the knowledge of how much
+a given class of work can be done in a day through either their own experience,
+which has frequently grown hazy with age, from casual and unsystematic observation
+of the man, or a test from records. Having data on what workers actually
+do during their time is very difficult. Moreover, this is even worse when
+we're dealing with knowledge workers. If you think about observing doctors,
+observing insurance agents, or underwriters in a bank,
+this is really hard and doesn't fit the culture that
+most organizations have. The OAE framework has been powerful
+because it lets your document, what you have learned during
+these observations, and identify the fraction of the work
+time that was truly value add. The OAE analysis will also tee up
+the productivity improvement study, where you can ask yourself how much of
+a profit left as we have seen in our discussion of can I get by reducing
+these various forms of waste.
