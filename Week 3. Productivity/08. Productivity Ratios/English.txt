@@ -1,0 +1,106 @@
+At the beginning of this module
+we define productivity as a ratio between output and input. After having spent the last couple
+of sessions at the front line, looking at an operation
+at a very micro level, we are now taking more
+aggregate level perspective. We will again look at the U.S.
+airline industry. We define labor productivity as a ratio
+between revenue and total labor expenses. Beyond just defining the labor
+productivity and comparing it across airlines, our goal is to really dive into
+understanding the drivers of productivity. We define productivity as
+the ratio between output and input often time however,
+it is difficult to measure output. So it is common in productivity analysis
+to use revenue numbers instead. We also often have multiple
+input factors such as labor, materials, capital, and other things. One way to avoid adjusting for these
+multiple categories is simply to define one productivity ratio for each category. For example, we can speak about the labor
+productivity as a ratio between revenue and labor expense. Let's try this out for the U.S.
+airline industry. In 1995, U.S. Airways had 6.98
+billion dollars of revenue. Their labor cost was $2.87 billion. This gives us a labor productivity of 6.98 divided by 2.87 equals to 2.43. 16 years later, the numbers have changed, revenue had grown to 13.34,
+with the labor expenses being at 2.41. This has increased the labor
+productivity thus to 5.53. Notice that labor productivity in those 16
+years at U.S. Airways more than doubled. The situation at Southwest
+looks as follows. In 1995, their labor productivity
+was given by 2.87 billion dollars in revenue divided
+by 0.93 billion dollars for labor expenses,
+equals to 3.08 as the labor productivity. You see here that this was
+a significantly higher number than U.S. Airways had at that time. 16 years later, Southwest was able to grow
+its business to 13.65 billion dollars. However, later expenses
+also grew significantly and were now 4.81 billion dollars,
+creating a labor productivity of 3.26. Which is actually slightly lower compared
+to the current number at U.S. Airways. But what does the higher labor
+productivity actually mean? Are the workers working any harder? Have we squeezed out the idle time? Is the process underlying
+the operation smarter than before? What really account for the difference. Consider again out definition
+of labor productivity as a ratio between revenue and labor costs. Now work with me through
+the following equation. We can rewrite the revenue to
+the labor costs as the revenue divided by the revenue passenger miles created by
+the airline, times the revenue passenger miles, times the available seat miles,
+times the available seat miles divided by the employees, times the employees
+divided by the labor cost. Now you might be scratching
+your head here a little bit. But at least you will hopefully agree
+with me that mathematically this equation is true. After all, this term cancels against this
+term, this term cancels against this term and this term cancels against this term,
+and we are back to the initial expression. Now what is the benefit of
+writing the equation this way? It reminds us that there
+are multiple things going on, that are all driving the labor cost. The labor productivity. We see here in the first factor
+the revenue to the number of miles that we sell. This is really driven by
+the airlines pricing power, for that reason, often times this
+is what's called the yield. How much can we yield? How much do we get out of
+the capacity that we have available? The revenue passenger miles divided
+by the available seat miles really measures to what extent we
+are able to fill our aircraft. In many ways this is a form
+of utilization of capacity. Now the last two of these ratios here
+are actually really touching the labor. The first of these ratios is how much
+capacity can we get out of each employee. The second one looks at the cost
+of sourcing these employees which is basically their wages. Notice that these four different
+ratios catch a four different things. I cannot go to an employee at U.S. Airways and say, hey, your labor
+productivity is slow, just because the pricing has been done poorly or
+the aircraft has been flying half empty. With this is mind, breaking up the aggregate level of
+productivity into these smaller drivers is quite revealing because it tells you what
+really is going on in the operation. Let's apply our new knowledge
+by going back to the U.S. Airline industry and compare the labor
+productivity across the big carrier. We said the rate of labor productivity was
+driven by the ratio between the revenue and the labor cost. For the case of American Airlines,
+we're dividing the revenue, divided by the labor cost, and we can copy
+this to the cells of the other carriers. We notice quite some
+variation with Frontier getting a labor productivity ratio of six,
+and quite interestingly, Southwest being at the bottom of the pack
+with a productivity ratio of 3.2. We then look into
+the drivers of this effect, we compute the yield as a ratio
+between the total revenue and the number of passenger miles that
+were actually sold by the airline. For this again we look at the revenue
+divided by the revenue passenger miles. And we roll this out
+across all the carry outs. You notice that the companies obtaining
+the biggest prices in the industry are the legacy carriers such as United or
+U.S. Airways. Next we look at RPM to ASM which we said was the ratio between the miles that were
+sold and the miles that were available. In other word, the aircraft utilization. RPM by ASM turns out to be relatively
+constant across the carriers, with most carriers booking
+the airplanes up to about 80% utilization. Now consider the ratio between the ASN, which is really the capacity that has been
+provided and the number of employees. So ASN divided by employees. If we compare this across the carriers. We see that the leader in productivity on
+that side is clearly Virgin America. Southwest though does relatively well
+compared to its immediate competitors the Legacy Airlines. As a final ratio, we'll look at
+the FTEs relative to the labor cost. That measures how many people I can
+hire for a given amount of money. Technically this is simply one over
+the wage rate of the employees. Well when we divide FTE
+divided by labor cost, we see surprisingly high differences
+in salaries across airlines. For example you notice that
+Southwest by now pays its employees really, really well. Remember you have to take one over this
+number to get to the actual wages. This is in sharp contrast to
+how it was some 15 years ago, where Southwest was paying much
+lower wages than their competitors. Most of the legacy carriers had gone
+through bankruptcy and restructuring and by now are paying employees
+significantly less. All these four variables together explain
+variation and labor productivity. So when we say that one company has a
+higher labor productivity than the other. We really need to be careful in
+distinguishing between these four forces. Measuring productivity using
+accurate level data can be easy, however it also can be misleading. As we saw with the data in the U.S. Airline industry,
+many variables drive labor productivity. Labor productivity is not just under the
+control of the labor, but things such as the pricing, the fleet utilization have
+a direct impact on labor productivity. Productivity ratios allow you to take
+care of these confounding effects and only measure the value of
+the productivity that you care about. In general in your work I always
+encourage you to take two approaches. First, look top down,
+start from the financial and work yourself down into the operations
+using tools such as a productivity ratio, compliment this with observational
+data from the front line. Look at the operational data and aggregate them using the tools such as the
+KPI tree that we saw in an earlier session in this module to look how they
+are driving financial performance. This is where you get a balanced view
+of your productivity in the operation.

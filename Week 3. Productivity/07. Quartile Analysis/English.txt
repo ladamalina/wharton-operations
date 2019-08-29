@@ -1,0 +1,109 @@
+While idle time is an important and obvious waste of capacity, it is not
+the only enemy of a lean operation. Academics like me, like the problems of
+line balancing and staffing to demand, driving out the idle time to tact
+time given the processing times. Because these are very well
+defined problems that lead to very elegant mathematical formulations. In practice, however, often times an even
+bigger lever for productivity improvement is going after the variation of
+processing times across workers. Just like you and
+I work differently in our ability to sing, in our speed with which we are going to
+run five or ten kilometers, you and I will differ in the processing time that
+it would take us to make a sandwich. Addressing this variation
+across workers and processing time,
+is the idea behind standardization. Teaching observation the way that
+Frederick Winslow Taylor did it is hard in an academic course. For this reason, I find that many
+academic courses are biased towards the mathematical treatment of
+productivity but really miss out on some great insights that can be
+obtained by going to the front line. To address this challenge
+in academic courses, I've prepared two calls that were made
+to a large call center of a retail bank. Both callers are about making deposits
+to a mortgage account via a credit card, but the two calls are handled
+by different operators, who, as you will notice, have slightly
+different ways of handling the call. At this point, I would like you
+to take out a stopwatch and carefully listen to what
+happened in the calls. Just go through the call,
+step by step, and take notice of how much time
+is spent on the various tasks. Are you ready? Here we go. >> Hello.
+You're speaking to David. Can I have your name please? >> Yes.
+It's Natalie Walker. >> Good morning.
+How can I help you today, Ms. Walker? I'm calling because I'd like to
+make a payment to my account. Can you do that? >> No problem. Can you give me the seven digit mortgage
+account number, starting with BCC? >> Yes, it is B, C, C, six, five, eight. >> B, C, C, six, five, eight. >> Two, three, one, four. >> Two, three, one, four. >> Yes.
+>> Thank you, Ms Walker. I just need to ask you some
+basic security questions. >> Okay, that's fine. >> Can you give me the first line of
+your address and the post code, please? >> It is 48 Church Road, Bolton,
+and the post code is BO38FD. >> Thank you. And your date of birth, please? >> Seventh of March, 1979. >> Thank you.
+And what amount would you like to pay? >> 500 pounds, please. >> Would you like to pay by debit or
+credit card? >> Credit card. >> Okay.
+And is it Amex, Visa, or MasterCard? >> MasterCard. >> Thank you. Can I take the sixteen digit code
+on the middle of the card, please? >> Five, five, nine, o.
+>> Five, five, nine, o. >> Seven, one, four, three. >> Seven, one, four, three. >> Eight, nine, seven, three. >> Eight, nine, seven, three. >> Six, three, two, two. >> Six, three, two, two. >> Correct. >> Thank you. And the expiry date? >> O, three, thirteen.
+>> Thank you. And the full name on the card, please. >> Jess Natalie Walker. Thank you. And the three digit code
+at the back of the card? >> Four, eight, five. >> Four, eight, five. Bare with me while
+the payment goes through. Thank you. Your payment has gone through. >> Thank you. >> Thank you for calling. Is there anything else I
+can help you with today? >> No, I think that was all. I will need to make a change later,
+but I will do that on a later date. So no, that will be all for now. >> Okay. Thank you.
+Good bye. >> Hello, you're speaking to Anna, can I
+have your mortgage account number please? >> Yes, it's B,C, C, seven, five, seven. >> Yeah.
+>> One, nine, five, eight. >> Thank you. Can you confirm your name, please? >> Scott Jones. >> Thank you, Mr. Jones. I just need to ask you some
+basic security questions. >> Okay.
+That's fine. >> Can you give me the first line of
+your address and the postcode, please? >> It's The Boathouse, 58 Green Lane,
+and the post code is TN73CA. >> Thank you. And your date of birth, please. >> 27th of September, 1981. >> Thank you.
+And how can I help you today? >> I'm looking to make a payment
+into my account, please. >> No problem. What amount would you like to pay? >> 750 pounds. >> And would you like to pay by debit or
+credit card? >> Credit card, please. >> And is that Amex, VISA, or MasterCard? >> VISA. >> Thank you. Can I take the 16-digit code on the card,
+please? >> Two, two, five, six. >> Yeah. >> Four, zero, eight, zero. >> Yeah. >> One, two, five, three. >> Yeah. >> Five, eight, seven, nine. >> Thank you, and the expiry date. >> Four, twelve.
+>> And the full name on the card, please. >> Scott Jones. >> And the three digit code
+at the back of the card. >> One, five, three.
+>> Thank you. Your payment has just gone through. >> Thank you. >> Thank you for calling. Goodbye. >> So, what did you notice? Who was faster? Who was the better employee? Which of those two employees do
+you want to have work for you? If the only enemy that we consider in our
+study of productivity is idle time, we're missing a big opportunity that resides
+in the processing times themselves. Referred to the first extra words
+that the first operator was using as unnecessary motion. Though in our case,
+this really means unnecessary talking. To analyze such variation in processing
+times across operators, I find it is helpful to just collect a sample of
+processing times for each operator. The average processing time of
+process operators will vary. Instead of simply comparing the best
+operator and the worst operator based on the averages, I, in this picture show
+what's called a Quartile Analysis. The Quartile Analysis compares
+the highest quartile performing operator, that means the operator was still 25%
+other operators that are faster than him or her, with the bottom quarter operator,
+i.e.the operator who has 75% of the other operators faster,
+and 25% slower. In this slide, I do this for
+two tasks that exist in a large bank in the underwriting operation for
+consumer loans. You see on the right of the slide
+the closing step for this activity. For closing there are a couple
+of rather clergical and manual tasks that need to happen and
+if you observe, a very, very tiny difference between the top quartile and
+the bottom quartile performer. On the left, you look at
+the underwriting function itself. For underwriters, the gap between
+the top performer and the bottom performer varies dramatically for
+the selected set of activities shown here. So it is interesting that actually in
+the more knowledge intense activities the variation in productivity
+is more dramatic. In a recent study of over 100,000 patients
+that were treated in the emergency room of three hospitals, my colleagues and I wanted to investigate to
+what extent productivity, in the form of processing times,
+would differ in healthcare settings. The 100,000 patients were
+seen over multiple years by a group of some eighty doctors and
+over 100 nurses. The results were very similar to what
+we just saw in the banking settings. We saw about a 260% difference
+between the 10th quartile and the 90th percent quartile operators. Again, we see dramatic productivity
+effects, not coming from idle time, but by looking at processing
+time across operators. After 300%, the variation that we saw in
+today's class between the top performing employees and the low performing employees
+in the service operations were enormous. Call center, bank, hospital,
+service employees, manufacturing employees, everyone
+differs according to their productivity. Reducing these productivity gaps
+between the top quarter and the bottom quarter employees provides
+an enormous financial opportunity. Typically, if we can transfer
+the best practices from the top performers to
+the bottom performers, the average productivity is
+going to be lifted upwards. This should motivate you to
+go out to the front line and follow the footsteps of
+Frederick Winslow Taylor. Go out and measure yourself. Measure these productivity times because,
+typically, this is not data that most
+organizations currently have available. Then, take this data,
+plot it, compare the top and the bottom quartile and you get a sense
+of the variation in the process. Again, anything you can do to reduce this
+variation by moving the bottom quartile up to the median or to the top quartile, will
+give you an enormous productivity boost.
