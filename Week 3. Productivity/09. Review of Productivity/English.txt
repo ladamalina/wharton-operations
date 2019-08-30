@@ -1,0 +1,178 @@
+Let's review the questions of the
+productivity module in same way that we did for process analysis. I will share with you a couple
+of practice problems, and you'll take a shot at these
+problems on your own. For that after I explain
+the question to you, just pause the video, take some time
+to wrestle with the question, and then restart the video to hear the rest
+of the question explained by me. Ready? All right, here's a Tom and
+Jerry ice cream store question. Tom and Jerry run an ice cream store and
+they have an expensive piece of equipment. Since they are currently running at
+capacity, they consider buying another piece of the same equipment however,
+they considered doing an OEE analysis. They find that not all of the capacity
+is used productively and so they use a couple of calculations
+to figure out what's the real percentage of value airtime going
+on here on their ice cream maker. Here's a good moment for
+you to pause the video. I'll give you some time, and
+then I'll show you the solution. All right, now it's my turn. Let me crunch the question, step by step. The first part of the question asked
+me how many good batches of ice cream will there be produced, per day. To figure out, recall we have basically
+12 hours available for production. Of that, one hour is lost
+due to the startup effect. Pardon my bad humor here. This was the funniest
+I could come up with. So 11 hours are available for production. 11 hours really means 660 minutes per day. If you think about how long it will
+take to produce a batch of ice cream, remember a batch of ice
+cream takes 80 minutes. These 80 minutes are 20 minutes in setup
+and 60 minutes of actual production. 80 minutes per batch means that we can really make
+eight batches per day. Of these, we know that only
+three quarters are good and one quarter is defective. And so that means we are producing
+six good batches per day. This is real value air time. We know that these six batches
+are justifying really 60 minutes per batch of production time and that gives us 360 minutes
+of productive time per day. Now in the last piece of the question,
+we want to have something brought into the question that
+talks about every other Friday. So over two weeks, we're going to have 13 days times six good
+batches per day times 60 minutes. So over 13 days we have a total of
+4,680 productive value at minutes. How much available time did
+we have in that two weeks? Well the available time is simply 14 days times 12 hours a day,
+times 60 minutes. That is, according to my calculator,
+a 1,000, and 10,000, and 80 minutes. So, this year on the very right, is the actual value at time 4,680. Here's the available time,
+so we can solve for an OEE, of 4,680, divided by 10,080,
+which is roughly 46%. Again you can now start quantifying
+the capacity loss effect, for example of the set up times or
+of the defects here. And so that gets a nice waterfall chart
+that makes up for employee analysis. The next question is about
+linking operational measures with financial measures. In particular, we will have an eye
+on productivity measures and how they influence
+the bottom line of the firm. Take a look at the question here. Before you get to the work let me
+point out the notion of an ROIC tree, in class we talked about a KPI tree,
+KPI stands for key performance indicator. That's the computation added for the separate case looked at profits
+as a pretty obvious key performance indicator that an organization
+would be interested in. When you do an ROIC tree you start with the return on investive capital
+at the root of the tree. This is simply profit
+divided by a mass of capital. And then you start the tree
+by having a profit branch and an invested capital branch. From there,
+you'd go as discussed in class. Are you ready? Here you go. The first part of
+the question is about how many guests we can serve on an evening. Now, take a look at
+the following thought process. A guest who has spent a total
+of 50 minutes in the restaurant. Then, ten minutes are needed
+to clean up the table. So the total time of the system for
+the guest and the table, so if you think about the flow time
+of an order, is 60 minutes. Apply Little's Law, I equals R times T. And you know that
+the restaurant is always full. Always full means that they're
+always 50 orders in the system and then R times T and
+T is really a quarter of an evening. So if you look at guests per evening,
+you can solve for R and see 200 guests. You don't really need to do
+Little's Law to find this. You can also think about the intuition
+that each table is turned four times per day. So the table turns are four times per day. There are 50 tables,
+hence there are 200 guests, for an even. To draw the RIOC tree, we proceed as
+follows, again start with a profit branch and an investment capital branch. Profits is nothing but revenue minus cost. And revenue is nothing but the revenue progressed [SOUND] times the number of guests per night. The number of guests per night are simply
+the number of seats that we have available. 50 as we just saw times the guest's
+per seat, which are driven by the speed with which we turn the seats. This in turn is driven really then by
+the time that the guest is in the seat or at the table,
+plus the ten minutes of cleaning time. On the cost side we have really
+multiple brackets of cost. We have some overhead cost. We have some costs for the labor,
+and we have some variable costs. The variable costs are largely reflected
+in the food, and those are simply the number of guests times the amount of dollars that we spent
+per guest on food related expenses. This gives you in a nutshell how these
+variables play together driving the RIOC. I will now turn to Excel and
+actually run the numbers. All right, now let's start
+with the revenue calculations. We begin by looking at the revenue
+that we get per guest. 20 bucks. Then we have the time that the guest
+was in the seat plus the cleaning time which we said by now was 60 minutes. That allows us to turn the table,
+240 minutes. Divided by 60, equals to four times. Since we have a number of seats
+equal to 50, we can get revenues. So we can get the number of guests first,
+per night is simply the turns times the number of seats,
+and that is 200 guests per night. Next we'll look at our total revenues as
+simply the 200 guests that we served, times $20 per guest,
+equals to $4,000 revenue per evening. Next, on the cost side,
+we look at the labor costs first. On the labor cost, we have 20 employees
+taking home 90 bucks per evening. On the overhead side, that is simple. It's a flat 1000 and
+on the variable costs, for the food. We have to now look at
+the guests that we serve, 200 and multiply this with $5.50. So my total cost is simply
+these three numbers added up. And then I get profits
+of revenue minus cost. Equals $1200. Here we have to be very careful,
+because this is the profit per evening. If I want to compute a return
+on invested capital, returns are typically
+computed on an annual basis. And so my profits per year are simply
+365 times my profit per evening. That gives me then per year. That give me then my ROIC. And the ratio between
+the profits that I have here and the invest in capital that
+I just squeezed in here. That is 18.25%. Now the reward of all
+this tricky calculation is that a sensitivity
+announces this quite simple. For example, the question
+eludes to the case that I could shorten the time in the seat to 55 minutes
+by accelerating the cleaning process. I just type this in. All the numbers we compute, and
+we see this dramatic increase in our ROIC. Now I admit this is based on
+the assumption that there is really an infinite amount of demand that we
+can squeeze these extra customers in. That, again, don't be too cautious
+on that assumptions here, because we are assuming that with
+unlimited amount and average times. It doesn't really mean that
+there are always four customers being served per seat per night. Some will stay shorter, some stay longer,
+and as long as there is an infinite demand, we will always get
+the extra guest for the system. Anyway you see now, draw the ROIC tree,
+compute the ROIC, and then do the sensitivity analysis. The last question is
+a line balancing question. You see that there are six
+tasks given to you and a current assignment of tasks to workers. Your job is to balance the line. In the second part of the question, you
+are supposed to compute the tech time and the target manpower calculation. Now a word of caution as we start
+the optimization here to maximize capacity given these four workers. As I've said in class, there is a way of mathematically formulizing a fancy
+mathematic optimization problem. But this is really over-shooting it. With numbers, small as they are here,
+it's a process of trial and error. You have to just try out different
+assignment combinations to see if you can further
+increase a capacity. Good luck. All right now let me have
+a shot here at this problem. Really we're dealing with a process
+that consists out of four resources. Is four workers. The first resource is just working
+on task one which gives it a processing time of 30 seconds per unit. 25 for the second worker. And then here we combine three and four. So 75 seconds per unit at station three. And for work at number four
+we have 45 seconds per unit. So we've done this often enough by now in
+class to see that we can quickly see that one over 75 units per second is
+going to be the bottleneck and thus this is the capacity
+of the current line. So this is, again, one over 75 times 3,600 seconds in an hour. Now let's assume the tasks
+are allocated differently. We want to balance the line. And clearly, this doesn't look like a
+really balanced line because there's a big difference between the fellow working
+here, the fellow working here. So let's see how good we can do. Now imagine the first person here
+would work on task one and task two, that would give us a 55
+second processing time. Then the next person would
+just work on this one here, 35 seconds for the next one. 40 on the next one. And then 45 for the third stack. This would give me an activity time or processing time at
+the bottleneck of 55 seconds. How did I come up with that solution? Don't ask me. This is a little bit of intuition. A little bit of trial and error. But I doubt it that I could get all
+the way down to a processing time of a bottleneck of 30. Then I tried 30 plus 25 and
+one from the onward. Could I combine activities so that the
+processing time at the bottleneck is 55? Yes, I could. Again, this is trial and error as long as
+you don't learn mathematical programming. Which could do this
+assignment optimally for you. With this is mind, we have a activity
+time at the bottleneck of one, of 55, and has a capacity at the bottleneck
+of one over five, 55 units per second. The third question is equally tricky and in the third question you can assume
+that you can reshuffle these tasks. Typically when you do this, since
+you're gaining a degree of flexibility, you will be able to squeeze down the
+processing time at the bottleneck further. However I couldn't find
+the combinations of activity times such that the 55 seconds were beaten. Just try it yourself. So maybe you want to combine 30 and 15, which gives you a 45 seconds per unit
+activity time at the bottleneck. Then you could try, you have 55 up here. That makes it longer. Try it yourself,
+I couldn't come up with anything faster. So far we've looked at the effect of
+capacity only, we've maximized capacity. Now, we have some information
+about the amount. The amount here is 50 units per hour. Since there are 3,600 seconds in an hour,
+and we want to have 50 units, we have
+a 72 second between units tact time. I can quickly compute the labor
+content of the process. It's simply the sum of these
+individual processing time and get a labor content of
+175 seconds per unit. My target manpower is then simply. These 175 seconds of work divided by
+the tact time of 72, which is 2.43 people. Round this up, and you see that
+you should hire three workers. Now the last question
+is going to be tricky. As we go from the target man power
+to the actual staffing level we have to once again take care of
+the problem of assigning worker to tasks. Let`s take a look at this together. Now here is the processing time. They were. Excuse me,
+I didn't want to log us out here. 30 seconds for the first, 25 seconds for the second, 35, 40, 15 and 30 seconds per unit respectively. Let's first consider the case where we can
+do the task in any order that we want. Remember our tac time was 72 seconds. So I want to create bundles of tasks
+that are very close to 72 seconds. I combine 40 and
+30 it gives me 70 seconds and then the worker will have
+just two seconds out of time. Remember we want to hire
+m equals three workers that we know by our target calculations. That's the best we can do. Well then, from here on work is easy. 15 plus 35 already gives
+me another 50 seconds. I combine the first and that leaves
+me with m equals three workers. Gives me the process staffing that I need. It's somewhat tricky unfortunately if
+I want to keep the sequence of tasks as they were described in the questions,
+okay? And let's write them all down,
+and let's remember that once again,
+we are after a tact time of 72. So if I combine the first two I'm
+going to get back to my assignment of 55 seconds of a cycle time. Of processing time at the bottleneck. Which we saw previously. That was not enough to get
+me down to n equals three. I have n equals four. However if I include all of
+these three tasks together for the first worker and
+over the 72 seconds tact time. So that means the first worker really has
+to have these two tasks assigned to them. Same logic on the next step. The combined tasks three and four. I'm over my tact time and
+so that doesn't work. And so I have to unfortunately hire
+them and just hire 35 seconds here. Then the next person would be staffed this
+way and then the next stationed this way. So unless I can break up the tasks
+further and move seconds from one task to the other, unfortunately in
+that case I will need four workers.
