@@ -1,0 +1,114 @@
+So welcome to my Coursera course in
+Introduction to Operations Management. This is a 4-week long course, and today is
+the first session. What I thought we would do in this first
+session is, instead of me bombarding you with the logistics for this course,
+including the homework assignments, the format of the course, the exam, the course
+book and all these other good things, we just get started.
+I promise I make up for the logistics later on.
+So, what is operations management about? The purpose of this first session is to
+think a little bit about what operations management does and how it relates to the
+business strategy of a firm. This will also help us think about what
+type of goals management might set for an operation, and that, in turn, guides what
+performance measures that we're gonna track.
+So let's get started. Let's start with two various specific
+examples. It's soon lunch time.
+And so consumers are thinking about where shall we go for lunch today?
+So we have our consumer here who is heading to a restaurant.
+And now ask yourself what does the consumer want out of the operations of
+this restaurant? But first of all they want to get.
+Their sandwich quickly. Lunch break is short, people are hungry.
+And so the time that they have to wait in order to get the sandwich is a pretty
+important variable for the consumer. Second, consumers differ in what type of
+sandwiches that they like. And so the ability of the restaurant to
+really make sandwiches that are appealing to customers is important.
+They have to be able to provide a variety of sandwiches.
+Which means either having a big menu, or being able to make these sandwiches to
+very specific customer instructions. Third, the customer cares about quality.
+Now, quality, that could be the ambiance of the restaurant, the friendliness of the
+staff. It could be the hygiene of the place.
+It could be making sure that the cheese weighs exactly what it says on the recipe.
+Quality will have a number of dimensions that we will explore later on in this
+course. And then finally, of course, price
+matters. And so the consumer doesn't want to spend
+too much money for this lunch. Now.
+Let's go from the restaurant here, and let's look at the operations of a
+hospital. Same thing, we have a consumer arriving
+to, for example, the emergency room of, of a hospital.
+So we have our unhappy consumer here who's coming to the hospital.
+And we're now asking ourselves, "Well, what does the consumer want the operations
+of this hospital to do?" Again time is critical.
+Wait times in emergency rooms in this country can often take as long as five
+hours. And so, the peo, person want to be seen
+quickly. They want to make sure that they get the
+care that is right for them, instead of the care that is right for the person in
+the bed next to them. They want to receive this care in a high
+quality manner, making sure that it is in accordance to the latest evidence-based
+medicine. That the doctors and nurses have washed
+their hands. That the place is clean and everything
+else. And then finally there are the charges,
+and the co pay that the consumer and, or his insurance will have to pay for the
+service. So sandwich store or emergency room.
+We see that an operation has to be able to perform well along four dimensions.
+The first one is the, the cost dimension. That's probably what most of us associate
+with operations management. It's just providing a high efficient
+operation. The second dimension is variety.
+Now to be fair, consumers don't care about variety per se.
+They just want something that they like. So really variety measures the flexibility
+of an operation to provide goods and services to a heterogeneous customer base.
+The third dimension is quality. The quality dimension is broken up into
+two sub-dimensions. The first one is called performance
+quality, the second one is called conformance quality.
+Performance quality measures how good of a product or service we provide.
+Most of us would agree that a BMW is a high-performing car.
+Not because how it is built, but primarily because how it has been designed.
+The second dimension then is conformance quality.
+It really captures to what extent we're able to deliver on the promise that we
+have made to the customer. And then finally there's timeliness.
+Our ability to provide a quick response to demand.
+Those four dimensions are important for two reasons.
+First of all, they are the goals that we strive for in an operation.
+And so they will guide what type of performance measures we track.
+And then, they're really also at the heart of defining the business strategy.
+These four dimensions give us opportunity to differentiate our operations from
+other, thereby potentially providing us with a competitive advantage.
+Now imagine you get hired to consult to Subway.
+And you would be asked to come up with a performance measurement system that tracks
+these four dimensions that we just discussed.
+What would you measure? Well, on the plus side, you would start
+potentially looking at the labor productivity.
+You could imagine measures such as the sandwiches per employees, or the customers
+served per employee, or the minutes it takes you to make a sandwich or other
+measures like that. You could also look at the customers per
+restaurant to measure. To what extent your gonna efficiently use
+the real estate investment, that you have by renting the, the restaurant.
+Now, how about the variety? On the variety side, again, our idea of
+varieties that we will look at. Are we be able to meet the heterogenous
+customer preferences? Well, a simple measure for that would
+simply be looking at the number of items that we have on the menu.
+Beyond that, if we're making the c-, sandwiches to order, we could imagine
+looking at the percentage of customer requests that we're able to fill.
+So customers come in, they want extra lettuce, extra tomato, and the percentage
+of customer requests that we meet would be another good measure of variety.
+How about quality? Remember on the quality side, we had the
+two dimensions, conformance quality and performance quality.
+So performance quality we will probably have to do some customer research.
+Some survey looking for things about to what extent they like the ambiance of the
+restaurant, to what ex-, extent they found the courtesy of the staff in line with
+their expectations or other things. On the conformance side we would probably
+look are we really delivering what we promised?
+And so that means we could look at the freshness of the ingredients of the
+sandwiches. We could in extreme case even go as far as
+putting the sandwiches on the scale and just measure whether we put the exact
+appropriate amount of grams of cheese on the, the subway ham and cheese sandwich
+and so that would give us Good measure of conformance quality.
+And then timing this is relatively easy to measure.
+Customers care about the time that it would takes them to get to the sandwich.
+And so, we could go and measure how many minutes a customer has to wait between
+entering the store and leaving the store with a sandwich in their hand.
+So finally let's talk about strategy. Strategy guru, Michael Porter, suggested
+there are two ways in which an organization can get a competitive
+advantage. Either through cost leadership or through
+differentiation. The dimensions that we discussed --
+variety, quality and timeliness -- are three ways in which your operation can
+differentiate itself from others. Thereby, by coming up with a great
+operation, you are really creating your firm competitive advantage.
