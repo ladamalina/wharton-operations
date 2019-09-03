@@ -1,0 +1,100 @@
+Now in the last session, we discussed how
+the performance of an operation can be evaluated along four dimensions,
+cluster efficiency, the quality, ability to provide choice to the customer,
+and responsiveness. Now as the owner of a business, of course, I would love my operations to excel
+at all four of these dimensions. I would love to provide customers
+with products at low prices, provide them with infinite choice,
+high quality service, and all of that immediately, provide them the
+products or services when they want them. Obviously, that is often not possible. As the owner of the business,
+as the manager, as a consultant, I have to make
+trade-offs among these four dimensions, which is really what we're going to
+be discussing in this session today. Let's look at a specific example. Imagine you're consulting for a call center, the call center currently
+has problems with response times. Customers are waiting a long time, and only 30% of the incoming calls
+get served in 20 seconds or less. Say, for sake of argument,
+that your goal is to improve this and get 80% of the calls serviced
+in 20 seconds or less. This is called a service level. Now there's a tension between the forces
+of responsiveness and productivity, in the sense that you could easily imagine
+a call center that would have an amazing responsiveness. It would have thousands and
+thousands of employees staffed. It would be very inefficient,
+but it would very responsible. Vice versa, you could imagine
+downsizing the workforce so that you have very few workers answering
+calls, which would be great for your productivity but
+very poor for your responsiveness. So there is clearly a tradeoff
+between those two dimensions. But one of the things that we'll discuss
+in this course is how you can use your operations and the tools in this course to
+really position yourself on this graph, because every business needs a different
+position in terms of the service level. And the managerial decision is how many
+employees would you want to hire on a given shift. Next, imagine that you are going out,
+you are working for this call center. The call center is performing about here in terms of
+the responsiveness and the productivity. You engaged in some benchmarking and
+you're looking at a number of other industry players along the lines of
+responsiveness and productivity. First company that you
+run into is company A. Company A, you notice,
+is a lot more responsive then you have. So in other words their
+customers have to wait less. But at the same time, you notice
+that they are a lot less efficient. Then you run into company B. Now these guys here are having a much
+better productivity, but they do so at the cost of some responsiveness. So they are cheaper than we are,
+but they are a lot slower. Both of these make good sense
+because they are really reflecting the trade-off that we just
+discussed on the previous slide. Now the very next company you
+run in to is Competitor C. And Competitor is a puzzle for you really because these guys are both
+faster than we are, and they are cheaper. We refer to this difference here as
+the inefficiency in our operation. And the line that goes, let me say this
+casually, the line that includes all the industry players to its lower left, we
+refer to this as the efficient frontier. Obviously, the goal of
+an operation is to move out here to the upper right of this graph. Now an operation that is
+currently on the frontier, in order to move to the upper right here,
+it has to innovate and shift the frontier. Everybody else who is off the frontier has
+the potential to simultaneously improve, allowing multiple of the four
+dimensions of operational performance without having to make
+necessarily a serious sacrifice. These are guys that are just
+doing work smarter. Now one of the things we will
+talk about in this course, is we'll help you evaluate such changes,
+be it on the frontier to a new frontier, or off the frontier towards more
+productivity and more responsiveness. We'll help you evaluate these changes
+before you actually make them. Making these changes is expensive. And so, to the extent that you
+can evaluate the financial impact before embarking on them, you'll have
+saved yourself a lot of headache. Now it's time to look
+at a specific example. What I've shown on this graph is
+data from the US airline industry. And I plot here on the x axis
+the efficiency of the carriers as measured by the ratio between the
+travel miles that they provide relative to the operating expenses. I also measure on the y axis the number
+that is called the yield of the airline which takes the ratio between the miles
+of travel service provided by the airline relative to the revenue. Now, take a look here at this
+concept of the efficient frontier. We see a line that roughly
+looks like this, and that captures, basically, all of the big
+airlines along a pretty linear line. The interesting outlier on this
+graph is Southwest Airlines. Southwest has been able to achieve a much higher productivity compared
+to the big legacy carriers. And thereby has been able to shift the
+frontier, largely done because of their clever labour productivity, something that
+we will analyze later on in this course. We also notice how Hawaiian Airline
+has been able to achieve a similar productivity, largely because of
+their small route network, but has not been able to command the high
+prices relative to Southwest. Now this is data from 1996. It is interesting to contrast
+this data with the year 2011. In 2011, you'll notice that the frontier
+has changed very dramatically. In fact, Southwest, it has been
+playing a cost game relying on low pricing has emerged us actually an airline
+that has been able to charge the highest prices in the industry, yet they had
+to sacrifice on the productivity side. They have been overtaken
+on the productivity side by companies such as JetBlue and
+Virgin America. So you notice how the frontier
+in the industry has shifted. New business models have arrived, companies have played
+different strategies. And because of their operations, the industry landscape now
+is a very different one. All right, what have we learned today? First of all,
+we notice that you cannot have it all. Just like in normal life,
+where you have to set priorities, a business has to prioritize some of
+the four dimensions of operational performance, cost, quality,
+variety, and responsiveness. You have to decided on which of these
+four dimensions you want to compete. Second, we talked about the concept
+of the efficient frontier. I have casually defined the efficient
+frontier as a line that includes all firms to its lower left. It was, arguably,
+a quite casual definition. More formally, in academic terms,
+we talk about the line of firms that has no other firm that
+per rate or dominates the firm. That is, for example, cheaper and
+faster at the same time. The efficient frontier is important as
+our gap as a company to the frontier measures the inefficiency,
+the waste that we have in our operation. One thing that we will talk about in this
+course is through clever operations, through clever process design, we will help your firm to
+move up towards the frontier. And then once you're on the frontier,
+we'll have to continually innovate to keep on pushing the frontier to
+the upper right of the graph.
