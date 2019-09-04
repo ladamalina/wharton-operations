@@ -1,0 +1,110 @@
+So why are some operations
+more productive than others? Why are some operations more
+responsive than others? To answer these questions we have to
+go inside the business processes that make up for the operations. This is the purpose of this module,
+process analysis. In this module, we're going to introduce
+the three most important performance measures of an operation,
+which are called flow rate, also known as the throughput,
+inventory, and flow time. To motivate these three
+performance measures and get some intuition on how process analysis
+works, I would like you to join me once again over to our local subway
+restaurant, and just see what's going on. We'll make ourselves outside, comfortable
+outside the restaurant and we'll just spend a couple of hours observing how
+people come in and out of the restaurant. Now we're here to learn not to eat,
+and so I will not let you get inside the restaurant,
+instead I will give you an assignment. Keep track at what times
+the various customers arrive. Then try to draw the following graph. On the x-axis in this graph
+you're going to plot the time. On the vertical dimension you're
+going to draw the cumulative number of the customers that have arrived. That means if the first customer
+arrived after two minutes and 30 seconds,
+you're going to draw the first point here. If the next customer came in
+a minute later, at three minutes 30, the second person has arrived and you're going to plot another
+data point over here. So, step-by-step, you're going to draw
+the times of which customers arrive and then the number of the customer
+that just have arrived. This will create a graph that
+we can call the cumulative inflow of customers to the restroom. I will do a similar exercise. I will draw a graph, but my time points are not based on the arrival of the
+customers but based on their departure. So whenever there is a customer
+leaving I'm going to draw a step up and
+keep track of the departure times. When we do this, we're going to get
+a graph that looks like the following. Now 25 minutes later, you and
+I will have collected the following data. I will show your graph and
+my graph on the same piece of paper. The information here looks like this. Remember, you were in charge of
+keeping track of the cumulative inflow of the customers here while I
+was computing the cumulative outflow. You'll notice that our first customer
+came at roughly 30 seconds into it. And then stayed in the system for
+about a minute and a half. At which time, the customer left again. That's when I grab the customer and
+make this person an outflow. If you look at our two graphs, you can
+see a couple of interesting things. The vertical distance between our graphs is a number of customers
+currently in the restaurant. These are customers that went in, that
+have not yet come out of the restaurant. The horizontal difference
+between our lines is the amount of time the customer
+spent in the restroom. We saw this was the first customer
+who arrived after roughly 30 seconds of observation time and
+then left after two minutes. And then we see later on that some
+customers have a little longer wait. So for example if you look here at
+the seventh customer, this person came in around here and it took until here,
+until this person was leaving. This suggests that there was beyond the
+activity times in the process potentially a fair bit of waiting going on. Now before we can do any process
+analysis we first have to define what we want to analyze. We defined the flow unit of the process
+as the atomic unit of analysis. In this case we want to
+analyze the flow of customers. Note that we could also analyze other
+things in the process, for example, the flow of cheese, the flow of money,
+the flow of sandwiches, or other things. For this computation here,
+our flow unit is, indeed, the customer. We define the flow rate of the process or
+also known as the throughput. That's the number of flow units going
+through the process per unit of time. This is expressed in
+customers per unit of time. For example, customers per hour. It's simply correspondent to
+the slope of the two lines that we've just been drawing as a cumulative
+influence or cumulative outflow. Second, we define the flow time as
+the time it takes the flow unit to go through the process. This was, as you recall, the horizontal difference between
+the inflow line and the outflow line. And third, we define the inventory as
+a number of flow units in the process at any given moment of time. This was the vertical distance
+between your line and my line. Given how important these
+three definitions are, let's practice them with four examples. Consider first an immigration process. In this case the flow unit
+would be the Visa application. The flow rate would be the total number of Visa applications that are either approved
+or rejected in a given period of time. So flow time would be the processing time, how long our Visa applicant had
+to wait for his or her Visa. And finally, the inventory would
+be the number of pending cases. Next consider the production of champagne. The flow unit would be
+a bottle of champagne. The flow rate would be
+the bottles sold every year. The flow time would be the time that
+the champagne would sit in the cellar before it is sold. And the inventory would simply be
+the content of the wine cellar. Consider an MBA program
+as a production process. So flow unit here is the student. The flow rate is the incoming and,
+or the graduating class, so simply the number of students going
+through the process per year. The processing time at least here at
+Wharton, it's a two year program, so that's the time that
+the student spends at school. The inventory time is the total number of
+students on campus in the first year and in the second year. And finally consider a car company. The flow unit here is a car. And the flow rate is the amount
+of cars sold every year. So flow time is the time from the
+beginning of the production to the time that the vehicle is finally sold, and
+the inventory of the cars and the system. Notice that only in the second and
+fourth case here, my definition of inventory will be similar
+to the world of financial accounting. In this case here, and in this case
+here or the service settings, these are flow units that I would never show up
+on the balance sheet of an organization. So inventory,
+the number of flow units in the system. Flow rate, the number of flow units going
+through the system per unit of time. And flow time, the amount of
+time it takes a flow unit to go from the beginning of
+the process to the end. I said at the beginning of this session
+that those are the most important performance measures in any operations. But why? Who cares about inventory? Now let me give you some reasons
+to care about inventory. In the US economy alone,
+in a typical year, we have about $1 trillion of inventory. And that is just the manufacturing sector,
+because this is accounting inventory. Now we'll notice that I,
+as an operations professor, define inventory somewhat carefully and
+somewhat differently from an accountant. For me a customer waiting for
+service in the hospital is inventory. You will not look at a balance
+sheet of a hospital and see the patients there
+are listed as an asset. For me, these people are inventory. Inventory happens whenever you have
+mismatches between supply and demand. Now my colleagues in Economics Department, they kind of like to ignore
+the supply-demand mismatches. They take comfort in
+the notion of markets and that prices will adjust once we have
+a mismatch between supply and demand. However, if you are sick, and you're sitting in an emergency department
+prices were not source of problem. If you're hungry waiting for your lunch,
+this is not a matter of prices. For this reason I argue that
+understanding inventory, flow rate, and flow time are indeed
+the most important issues, not just what we do in operations,
+what we do in management in general. So, keep those three measures
+in mind when, next time, you go through a process,
+be it as a tourist, as a person going for lunch or
+when you have a chance to tour a factory. And always look for the three things,
+flow rate, inventory, and flow time.
