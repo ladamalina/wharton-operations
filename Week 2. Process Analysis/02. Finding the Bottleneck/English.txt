@@ -1,0 +1,131 @@
+After defining inventory as the number
+of flow units in the system, flow rate the number of flow units flowing through
+the system per unit of time, and flow time the time it takes a flow unit from
+entering the system to leaving the system. The purpose of this session is
+to find out what are the drivers behind these three variables. In this session, we will introduce
+a concept of a bottleneck, which is probably the most important
+definition in this course. We'll also talk about process flow
+diagrams, which are really maps describing how the flow units goes from
+being an input into the process, from leaving the process as
+a finished unit of output. To see these concepts in action I would
+like you to join me once again and let's take a walk together to
+our local Subway restaurant and see how the operations look
+inside the restaurant. Now time to go inside the restaurant. From some training materials that Subway
+kindly shared with me, I now know that there are a couple of tasks that need to
+carried out in order to make a sandwich. In this picture here you see
+how there are three workers, three stations that are making Subway
+sandwiches in the store at this hour. The work starts at station one
+with greeting the customer. That takes four seconds followed
+by five seconds to take the order. If we add up the activities that
+are carried out by the first station, we get a total time of 4 plus 5
+plus 4 plus 3 plus 12 plus 9, which is equal to 37 seconds per customer. We refer to this time
+as the processing time. Notice that processing times are always
+expressed in seconds per customers or more generally in units
+of time per floor unit. In the same way I can compute
+that it is taking 46 seconds per customer at station two. And 37 seconds per
+customer at station three. Again, those numbers
+are called the activity times. Throughout this course, I will use the
+words activity times and processing times interchangeably, so pardon the ambiguity
+when I just said activity times. I really was thinking
+about processing times. So be aware of that in the future. Activity times and processing
+times are one in the same thing. I want to be a little bit of hand waving
+here around the toasting activity, keeping in mind the toasting doesn't require
+the direct hands-on work by a worker but instead is automated through a toaster. If there should be a limited
+amount of toasting capacity, that is indeed something
+that we would consider. But for nor,
+be hand-waving over this matter. Now this is pretty useful because
+now we know there are three workers carrying out the work. We know all the things that need to
+be carried out to make a sandwich. And we know that the total time it takes to make a sandwich is 37 plus
+46 seconds plus 37 seconds. Now let me propose a slightly different
+representation of the same data. This way we can draw a little picture that captures the flow of a flow unit
+through the process here at Subway. This picture is called
+a Process Flow Diagram. Our experience with Subway
+starts with a waiting line and in general we will refer with triangles as pictures capturing wherever
+there's waiting lines or inventory. Boxes will capture activities and so
+we know that the processing time, at the first box,
+there's going to be 37 seconds per unit. The work is then handed off to the next
+worker, which might potentially include some delay,
+that's why I draw a little triangle here, where there are another
+46 seconds of work. From there, potentially another little
+waiting, before you hit the checkout. There is a third station where, again,
+we're going to have 37 seconds per unit. Finally, the customer is served and
+can happily leave the restaurant. Now, we've drawn this process flow
+diagram here, in PowerPoint to get rid of my ugly handwriting, just to iterate
+the symbols, the triangles, stands for flow units waiting, arrows capture
+the flow of the flow units and boxes capture the resources that are carrying
+out the activities in the process flow. Now let me at this point refer you
+to an important difference between project management and process management. Process management, the topic of this course is all
+about doing things repeatedly. You want to serve hundreds and hundreds of
+customers over the day, and at this point are primarily interested in computing
+the flow of customers through the process. It turns out that for the flow of
+customers through the process, it doesn't matter whether we work stations one, two,
+or three sequentially or in parallel. If all you have to do is make one
+sandwich, it would be lovely to, for example, ring out
+the customer at station 3, in parallel to actually making
+the sandwich at station 1 and 2. But, at the end of the day, every customer here in the flow has
+to go through station 1, 2, and 3. And so, we are not going to serve anymore
+customers by working in parallel. Now, we are ready for some definitions. We've already seen the concept of the
+processing time which captures how long a resource takes to serve a flow unit. For example, station 2 in our previous
+setting had a processing time of 46 seconds per customer. Next, we define the capacity of the
+resource as one over the processing time. In our case, one over 46, and now careful with the units,
+that is customers per second. Now in casual English you would
+typically not say that a worker has a capacity of serving a 46th
+of a customer per second. If you want to make this
+something easier to imagine, just multiply this with the 3,600
+seconds that there are in an hour, and use see that the worker
+here at station two, is able to serve roughly
+some 78 customers per hour. Now this is a case which we have just
+one person working at the resource. If there are multiple person or multiple machines carrying out the same
+work, we define the capacity as m, the number of parallel resources and
+divide it by the processing time. Now the chain is only as strong as its
+weakest link, and if we ask our self how much capacity the entire
+restaurant has, we're going to look for the capacity of each individual step, and
+we will then pick the lowest capacity. This is the idea behind
+the concept of a bottleneck. The bottleneck is the step
+with the lowest capacity. Next we want to figure out the flow rate. We already defined the flow rate is
+the number of customers going through the process per unit of time. But it can never by definition
+be more flow through the process then we have capacity at the bottle neck. However, there might be a situation
+when even the bottle neck has some excess capacity. Those are situations where
+we have insufficient demand. In off hours, late at night, early morning, we might just not have the
+demand rate to keep the bottleneck busy. And so the flow rate is defined
+as the minimum between demand and process capacity. We can then compute
+the utilization of a resource. It's the ratio between the flow rate and
+the capacity. Now, remember the flow rate captures the
+flow, meaning it captures how much work a resource is currently doing, versus the
+capacity, which really measures how much work the resource could be
+doing if it worked all out. Just to reiterate, we already had defined
+in a previous session the flow time, the time it takes a flow unit
+to go through the process. And the inventory,
+the number of flow units in the system. Now let's jump to Excel and
+practice our new definitions. Let's start with the processing times. Station 1 has a processing time
+of 37 seconds, Station 2 of 46, Station 3 of 37 seconds, and all of
+this is expressed in seconds per unit. We then saw that the capacity is defined
+as one over the processing time. And this is now expressed
+in units per second. If you want to get to
+the capacity per hour. We simply multiply
+the previous number with 3600. And this is now expressed
+in units per hour. Next we define the process capacity as the minimum of these capacities above. Which in this case is
+driven here by 78.26. Now the flow rate is the minimum
+between the demand and capacity. Let's say for sake of argument that we have a demand
+through the process of 50 units per hour. With 50 customers per hour we can
+than compute a utilization of, remember the definition,
+we are dividing the flow rate, in this case that would be demand,
+flow rate divided by the capacity. Which gives us a utilization
+of 51% at the first station. You notice that the utilization
+is higher at the second station, the bottleneck, with 63%. And then, again,
+it's 51% at the last station. If there is more demand coming our way,
+so if we improve, here, the demand rate from 50 to 60,
+the utilization goes up. Notice that, according to our definition, though, the utilization
+can never exceed 100%. Because the flow rate is the minimum
+between demand and capacity. In this session I threw
+a lot of vocabulary. We saw how resources and
+workers have processing times, how we can use the processing times
+to compute capacity levels, and how the resource with the lowest capacity
+in the process is called the bottleneck. We also introduced
+the measure of utilization. Together these calculations help us to
+determine the flow rate of the process without actually observing
+the process in action. In the last sessions we just
+sat there at Subway, and counted the customers to compute
+the customers served per hour. Now we're actually able to just predict
+the flow rate by simply knowing the processing times,
+the staffing level, and the demand rate.
