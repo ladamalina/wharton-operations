@@ -1,0 +1,163 @@
+In this session we will continue our
+analysis of the Subway Restaurant. We are going to be zooming in on the labor
+productivity of the employees at Subway. Specifically we want to have some
+performance measures we can track telling us how much productivity
+is going on in the store. For this, I will first
+introduce three new variables. The labor content, the cycle time,
+and the idle time. Based on these three variables I'll then
+introduce two new performance measures. They'll be called the average labor
+utilization and the cost of direct labor. Let me formalize the concept
+of line balance. Before we do this though,
+let's review some basic definitions. It defines a capacity of
+a resource as a ratio between m, the number of people or machines at
+this resource, / the processing time. We define the process
+capacity as the minimum of the capacities of the various
+resources in the process. And then the flow rate is the minimum
+between demand and capacity. Finally we previously
+defined a utilization as the ratio between flow rate and
+capacity. Now consider the following process. Imagine I have four stations
+each staffed with one worker. The processing times are shown
+in this picture here in green. You see that station 1 has a shorter
+processing time than station 4. Consequently, give that there's one
+worker at each of these stations, we're gonna see that station
+4 is our Bottleneck. Given that station 4 is slower
+than stations one, two and three have some lag time
+relative to our bottoming. We refer to this lag time as idle time. To formally figure out how red time how
+much idle time these three steps have let me introduce a concept
+of a cycle time. So cycle time is simply 1/Flow Rate. The cycle time is like measuring at
+the end of the process how much time passes between the completion
+of two subsequent units. For example, I might say that this process
+is operating on a 115 second cycle. That means that there is a process
+unit leaving every 115 seconds. Next we define the direct labor content
+as a sum of the processing times. This is simply in the previous
+picture the sum of the green box. Next we define for
+each resource the idle time as the difference between the Cycle
+time and the Processing time. So Idle Time for the first resource
+is exactly this difference here. We can add that idle time up across
+all resources to get the total rate. In this picture,
+the total amount of idle time. We can then define the average
+labor utilization in the process as a ratio between the labor content. Remember the sum of
+the processing time and the labor content + all
+the direct idle time. The labor content ruling measures how
+much green there is in the process versus the labor content + the direct idle time,
+the denominator here in this definition, captures how much time I have
+to be paying for in total. Which is the labor content
+plus the idle time. Finally, we define
+the cost of direct labor as a ratio between the total
+wages per unit of time. For example, four workers,
+times the hourly wage rate, divided by the Flow Rate per unit of time. To practice our new definitions,
+consider the following example. This, here, is a machine based line,
+consisting, Of six workers working in sequence. It is a machine based line because
+you notice there are no buffers between the stations, meaning that these six workers have
+to work exactly at the same pace. Though the first station has a shorter
+activity time thus x is capacity that station cannot run ahead. The entire process will be
+paced by the slowest step, we will see in a moment is
+the station number five. Now let's practice our definitions. We have the processing times
+over in this first row. Next we can compute the capacities
+simply as one over the processing times. For the first one let me put the units
+along here, so this is units per minute. 1 over 5, 1 over 2, 1 over 3, 1 over 6, 1 over 2. We can apply our definition
+of the bottleneck and see that the step with the lowest
+capacity is the bottleneck. That makes station five,
+indeed the bottleneck. Assuming there is enough demand for this
+process, we are gonna have a flow rate that is gonna be one
+unit every six minutes, which corresponds to
+a six unit per minute. Or alternatively, we could say that this
+process is producing ten units per hour. We can then define the cycle
+time of the process as six minutes between units,
+which is I hope is intuitive because that is exactly the activity
+time that we have here at the bottom. Next we can compute the idle
+time at each of the resources as the difference between the cycle
+time and the processing time. That would be 3 minutes here,
+1 minute here, 4 minutes here, 3 minutes here, 0 minutes here and
+4 minutes here. We've identified the labor content as the sum of the processing times which is 3 + 5 + 2 + 3 + 6 + 2, which makes a total of
+21 minutes per unit. The total idle time. Across all units is 3 + 1 + 4 + 3,
++ 4, which is 15 minutes. We can then define the average
+labor utilization as, 21 minutes labor content / 21 + 15, which is the average
+utilization in this process. We can also compute the cost of
+direct labor in this process. It's the ratio between the wages and
+the flow rate. Say for sake of argument, each of my
+workers here is making $20 per hour. So my wages are 6 workers x $20 per hour / the flow rate,
+which we said was 10 units per hour. This gives me direct cost
+of labor of $12 per unit. Let me take these calculations, that
+are arguably somewhat messy right now and plug them over into my Excel spreadsheet,
+where you can read them more clearly. All right,
+let's review this calculation in Excel. So first thing that we're gonna do is
+we compute the Capacity of each of the resources as 1/
+corresponding processing times. This is now expressed in units per minute. Next, we're gonna compute
+the process capacity as the minimum of
+the individual capacity levels which determines indeed station
+5 as we expected the bottleneck. We can then compute the flow rate as
+a minimum between demand and capacity. We assume here that there
+was efficient demand and the flow rate is given
+by the process capacity. We can compute then the cycle
+time is 1 / the flow rate, which is telling us if we're
+making a unit every 6 minutes. This allows me then to compute the idle
+time of each of the resources. For that I'm going to
+take the cycle time and I'm going to subtract the processing
+time of each of the resources. With this in mind I can
+compute the total idle time. Which we confirm to be 15 minutes. Now is 15 minutes a lot of idle time or
+not? This is really hard to judge. And so we compare this number to the total
+labor content in the process which we previously defined as the sum
+of the activity times. I can then compute y labor utilization as the ratio between the labor content. And the labor content + the idle time. 58% is my average labor
+utilization in the process. Note the following,
+lets quickly compute the utilization of each of the six steps in the process. Utilization, remember,
+is the flow rate divided by the capacity. You notice a 100% utilization at
+the bottleneck, which I hope is intuitive. We can then go ahead and we can average. The labor,
+the utilization of the fixed resources. And, voila, we also see it's 58.3%. At the risk of repeating myself,
+let's go back to the supply example and revisit the previous calculations and
+pretend. Now extend these calculations
+as the following. The cycle time is computed as follows. We said that there were
+60 customers per hour. That means that every 60 seconds,
+there 3600 seconds in the hour. Every 60 seconds we have a unit of demand. The cycle times are still 60 seconds. We then can compute the idle
+time of the various resources. It's a difference between the cycle time,
+and the processing times. We can sum up the total idle time, And find it to be 60 seconds. This is really 60 seconds per sandwich. The next thing that we can do is
+that we can compute a labor content, which is also expressed per sandwich,
+has a sum of the processing times. With those two pieces of information I
+can compute the labor utilization then as the ratio between the labor content and
+the labor content plus the idle time. This is 66 + 6%. Notice, by the way, that as before,
+this is also exactly, the average of the individually
+computed utilizations. I often did ask, why we make such
+a big deal out of labor costs. If you analyze the PNL from big
+corporations and manufacturing these days, we actually see relatively little
+labor costs on their PNLs. My colleague from MIT, Dan Whitney,
+has done a very interesting analysis in the automotive industry
+that addresses this matter. If you analyze the profit and
+loss statements of an automotive company. You indeed see that the vast majority
+of the money is spent on purchasing. About 70% of the total cost incurred at Chrysler at that point
+was spent on purchasing. This is very similar if you
+look at electronics makers. We're also gonna spend 70 to 80%
+of the cost of recurring costs for items such as disk drives and
+microprocessors. Now, the labor costs here, if you look
+at things related to assembly labor and maybe inventory costs,
+is just a tiny fraction. However, this is misleading. This is hiding the fact
+that your purchasing costs of a total cost of your supplier,
+that includes their labor costs. So you'll see that if you look at your
+labor costs, plus what the supplier's spending, actually labor is
+becoming a bigger component. If you're ruling this up throughout the
+value chain, you'll actually notice that the very significant part of the item,
+in a vehicle is spent on assembly labor. What the recent trend stores
+relying on suppliers and purchasing more has done
+to the PNL statements, it has been hiding labor
+costs from our books, shifting labor costs to our suppliers
+however, they haven't disappeared. They're still in the value chain. And what top manufacturing companies
+do is working closely with suppliers to further reduce and reduce these labor costs independent
+of which books that are listed. In this session we introduce two
+measures of labor productivity. We talked about labor utilization and
+we talked about the cost of direct labor. Either of these two measures is good or
+bad by itself. Labor utilization is more
+a measure of line belts. However, we might have a perfectly
+balanced line of very expensive workers, so a process could be very unproductive,
+but have a perfect labor utilization. The cost of direct labor is capturing
+another angle of that productivity. It captures the wages that we have, as
+well as the productivity of the employees in terms of how many units of output that
+they can create, relative to their wages. We've also seen how firms can hide
+labor from their books by relying more on their suppliers by
+outsourcing ultimately, the labor. If you think about Apple and
+FoxCon, Apple might only have 60 or 70,000 employees, but FoxCon as their
+main supplier has over a million. So just seeing that,
+based on the financials of Apple, we don't see a lot of
+manufacturing labor there, and this manufacturing labor is not important
+for Apple Computers is really misleading. Labor productivity on your books,
+on your suppliers' books, is absolutely critical in operations. For this reason, we'll revisit many
+aspects of labor productivity, as we talk about the productivity
+module in a week from now.
