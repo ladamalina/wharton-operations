@@ -1,0 +1,70 @@
+Not many equations in this course, and so let's greet every one of them
+that we encounter with great joy. Time for
+the first equation in this course. This equation is known as Little's Law. Little's Law states that any process the
+average inventory is equal to the average flow rate times the average flow time. Now unlike most other types of things, other equations in mathematics that I know
+that were proven by some ancient Greeks, Little's Law is actually a fairly
+recent mathematical discovery. We'll see how to apply Little's Law and
+that it is quite a powerful tool for you as you are going to analyze
+processes with respect to inventory, flow rate, and flow time. To see the intuition rate behind Little's
+Law, let's take another look at some of the analysis that we have done in an
+earlier session on the Subway restaurant. Remember how a couple of sessions ago,
+we were sitting in front of the Subway restaurant, keeping track of the inflow
+of customers as well as of the outflow. We refer to the vertical difference
+between these graphs as the inventory, the number of customers in the system. As well the horizontal
+difference as a flow time, how long a specific customer
+stayed in the restaurant. If I smoothen these
+graphs here a little bit, the slope of this line corresponds
+with the flow rate, namely the rate at which customers come in and
+go out of the restaurant. This is not a formal proof of Little's
+law but the iteration behind it. We see that on average
+a process is the inventory, which is expressed in our
+case here as customers, is the flow rate, which is
+expressed in customers per hour or customers per minutes, times, so
+for time, which is simply hours. So hours here cancel out and you have
+on both sides the customer as a unit. Again, this is not a formal proof, but
+basic intuition behind Little's Law. What are the implications of Little's law? First of all Little's law
+tells us that from the three fundamental performance measures that we
+care about in this course, inventory, flow rate, and flow time, two of them we
+might be able to mess around with, and then the third one is
+written in law by nature. So for example if you hold the flow
+rate fixed for the moment. Say it's your revenue that's
+the number of customers you served let's hold this fixed for the moment then
+this will tell us whatever you're doing to inventory you're doing to flow time. The second thing that we do with
+Little's Law is often times we might know two of the performance
+measures in a process. But it's hard to observe the third one. Little's law can help us with two given performance measures to
+compute the third one. Now typically in the process flow rate and
+inventory are relatively easy to observe. Flow time in contrast is not. Let me give you an example. Think about how long will it take you
+on average to respond to your email? This is really not a number that
+most of us routinely track. However, you can compute
+this number quite easily. If you have 240 emails in your inbox,
+that is an inventory, then this number is
+equal to the flow rates. So say you're writing 60 emails per day times the flow time that
+you really don't know. It tells us that your
+average flow time is 4 days. This is the average. Some emails you might respond faster,
+some you might take longer. But, on average, it will take you about
+four days to respond to an e-mail. Here's another interesting
+example of Little's Law. Imagine you're working for
+a large hospital. There are 10 babies born
+per day in the hospital. Now, 80% of these deliveries are easy,
+and they require mother and baby to stay in the hospital only for
+two days. 20% of the cases are more complicated,
+and require a five day stay. Now, what is the average
+occupancy in this department here? Well, it turns out that you can
+solve this matter by little's law. First of all, observe that the flow rate here is simply ten babies per day. The flow time is the average
+time a baby spends in the department with an 80% probability
+it's going to be two days. [NOISE] And with a 20% probability,
+it's going to be five days. ] This is 1.6 plus one equals 2.6 days. To find the average occupancy,
+we compute littles by Little's Law. The inventory in the process, that's
+the number of babies in the hospital, is the flow rate times the flow time. 10 babies a day times 2.6 days Is equals to 26 babies. Again, notice that
+the occupancy might vary and you might be ill advised to build
+the department with only 26 beds. This is the average occupancy. Each day might vary, and some days will
+be lower while other days will be higher. In this session, we've seen our first equations in
+operations management, Little's Law. On average in a process, inventory
+equals flow rate times flow time. Little's Law is not an empirical law. To prove Little's Law, we have to
+turn to stochastic optimization. And do some heavy lifting math. The strength and the weakness of Little's
+law is that it deals with averages. Averages are very powerful at
+the aggregate level perspective on an operation. But at the micro level,
+they can be misleading. I, as a patient, care about my wait time. Not about the average wait time,
+i.e the wait time of everybody else. We will use Little's Law going forward, typically to compute inventory or
+flow time. In particular, we will see an interesting application
+of Little's Law in the next session.
