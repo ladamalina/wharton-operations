@@ -1,0 +1,86 @@
+In this session we will use
+Little's Law to define a new variable, that we will call inventory terms. Inventory terms is based on a somewhat
+funny view to an operation. Think about an operation
+as a big black box, where you have individual dollar
+bills go into the operation. And then with some delays,
+kind of being spit out of the operation. We can then for every individual dollar
+bill compute a really odd number, and with the amount of time that that dollar
+bill has spent inside the operation. This is really the intuition behind
+the concept of inventory terms. Once we have defined inventory terms,
+we can also compute the cost advantage which a company has if it's turning its
+inventory faster than its competitors. Here's a comparison between to
+computer companies Dell and Compaq. I know that Compaq is long gone
+from the landscape, but for the sake of comparison I've
+picked that data for Dell and Compaq in the year that Compaq
+ended up merging with HP. And we'll give you some updated
+data about Dell in just a moment. Now look at these computations, we want
+to look at how many dollar bills flow through Dell per unit of time,
+in this case, per year. And then we apply Little's law. The number of dollar bills in
+the organization is simply $391 million. The flow of dollar bills through
+the operation is the COGS, the cost of goods sold,
+which is 20 billion, 20,000 million. This suggests that if we sold 14
+the average dollar bill spends $391 divided by $20,000 and
+it is expressed in years in the operation. You multiply this with 365 days in a year. We're going to get roughly seven days as a time that the dollar
+bill spent was in debt. Now, do the similar calculation for
+the case of Compaq. The inventory here, is $2 billion. The flow rate is slightly larger,
+25.263 x T. And if you solve for T,
+you will get roughly 29 days. So while the dollar has
+only spent 7 days at Dell, was spent four times longer,
+29 days at Compaq. Instead of saying that Dell
+keeps their dollar bills for seven days inside the operation, we can
+refer to 1/T as the inventory turns. If you're keeping your dollar bills for
+seven days, given that they are 52 times
+seven days in the year, you're turning your inventory
+52 times in the year. This is the concept of inventory turns. One over T in the above equation is
+simply COGS divided by inventory. We see that Dell turns its inventory
+roughly 51 times in the year, while Compaq is turning it
+roughly 12.6 times in the year. Now when you do these calculations,
+be careful. Use COGS, not revenue to do these
+floor unit analysis because the margins that the companies make have
+really no impact on these calculations. How the inventory turns changed
+over the years at Dell in the early years you saw that Dell is roughly
+making 10 inventory turns per year. Over the late 90s,
+Dell perfected it's business model and together with a strong tech bubble was
+able to turn it's inventory way faster than 50 times per year. In their best state Dell was
+actually getting the money from the customers before they
+even had to pay their suppliers, leading to negative working capital. Here in the 2001 space,
+you see the birth of the tech bubble. You see the big decrease in inventory
+turns as the bubble bursts at around 2001. Dell restored its inventory
+levels subsequently. The more recent downfall of
+the inventory turns has to change, has to do with the change
+in Dell's business model. More recently, Dell has emphasized
+making many other things than made-to-order computers, including
+televisions, PDAs and other things. These things oftentimes held at Dell's
+inventory which has hurt Dell's inventory turns. To see the economic endpoints of inventory
+trends, consider the following data. This is data compiled by my colleagues,
+Gall, Fisher, and which shows the gross margin and the inventory turns
+for large publicly traded U.S. retail. To understand the economic
+implications of inventory turns, we have to first understand
+the concepts of inventory costs. Ask yourself, how much does it cost a
+retailer to hold one item in inventory for an entire year? At the minimum,
+we have to finance that item and most large public companies incurring
+capital cost of roughly 10%. But you have to also store the inventory
+and especially if it's a computer, a fast living item, you also have
+to adjust the cost of obsolescence. Say for sake of argument these cost,
+capital, storage and obsolescence together, are 30% for
+the players to show here in this data. Now let's pick two retailers
+that are competing head to head in roughly the same retail segment,
+retailer B and retailer A. Now, notice that neither of these
+retailers is holding its inventory for an entire year. So neither of them is having to pay for
+30%. But you notice that retailer A which is
+turning its inventory four times per year. We have to divide the 30% by
+the four turns, and we see that for every segment of sales for
+75.5% as an inventory cost. We can think of this as something like
+a tax rate that we have to pay to the Gods of inventory. Here's the data from retailer B. Retailer B turns its inventory faster, and that allows them to only pay 3.75%. Now this difference between retailer A and
+retailer B, 3.75W% is the difference between
+the two of them Is a dramatic number. This is an industry where typical
+net margins range between 1 and 2%. So simply by turning the inventory faster we're gaining a dramatic
+competitive advantage. >> Holding inventory is expensive. Unless you're holding French
+red wine in inventory that might gain in value as it gets older,
+most of the things lose value. At the same time you have to finance
+the inventory which takes working capital. For this reason,
+inventory turns is a very powerful metric. To capture how well you're
+using your working capital. The margin advantages you might get
+from faster turns looks initially small. However, if you compare it to
+the net margin of a business, in most businesses fast returns has a very
+significant impact on the bottom line.
