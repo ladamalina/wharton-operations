@@ -1,0 +1,128 @@
+In an earlier session,
+we saw the drivers of flow rate. We learned that the flow rate was
+driven by the minimum of demand and capacity, where capacity in turn was
+driven by the bottleneck of the process. In this session,
+we'll discuss the drivers of inventory. Why should there be
+inventory in the process? Would we all want to be lean and
+live without inventory? We'll discuss a couple of reasons
+why firms might hold inventory. We'll see that variability
+in particular is going to be a big driver of why
+firms hold so much inventory. Now, keep in mind as we're doing this
+that everything that explains inventory will implicitly also
+explain the flow time. We know we're a Little's law,
+holding the flow rate constant, everything that we do to
+inventory we will do to flow time. So while we call this session,
+five reasons for inventory, we could really also call
+it five reasons for longer flow time. In our calculations for the Subway case, we assume that workers
+would work like robots. It will take for example a worker
+exactly nine seconds per customer to put the cheese on the sandwich. We will stick with this assumption for
+a little longer, but at this time I want you to understand
+the implications of assuming that these processing times have absolutely
+no variability associated with them. Imagine you're working in a food truck. Say for the sake of argument, that at
+any time slot of five minutes duration you can get between 0, 1 or
+2 orders with equal probability. Also, have a capacity of 0, 1 or 2 orders. Now it's also not possible to make
+a sandwich before the orders are occurring and customers are not willing to wait for
+the sandwich. How many sandwiches will you
+sell every five minutes? Well previously we defined the floor rate as the minimum between demand and
+capacity. In this case, since we have an average
+demand of one, and an average capacity of one, a naive analysis will suggest
+that our average flow rate is one. However, this example is misleading. Let's look at all the things that
+can happen at the food truck. We can have a demand that is either 0,
+1, or 2. We can also have a capacity
+that is either 0, 1, or 2. That leads to nine cases. If we have a demand of 0 and a capacity of 0 well
+obviously the flow rate is 0. The flow rate is also 0 for a capacity
+of 1 or 2, as long as the demand is 0. Remember, the flow rate is
+the minimum of demand and capacity. So I apply the same calculations,
+the minimum between demand and capacity, to these nine rows here. I noticed that the average flow rate is much
+lower than I initially expected. Remember each of these rows here is
+occurring with the same probability. And I see that the average flow rate that
+I obtained this way is just 5 over 9. Put differently,
+I've lost almost half of my flow rate just because of
+the effect of variability. Now people refer to this
+effect as buffer or suffer. Buffer or
+suffer means that in a system that is not able to buffer the variability
+we will suffer a loss of flow rate. Remember our crucial assumption here. The food truck is not able to make
+a sandwich before the order occurs, and customers are not willing to wait for it. So we explicitly eliminate inventory. Both inventories of waiting customers and
+inventories of waiting sandwiches. By allowing for inventories, we'll actually be
+able to have a higher flow rate. If we allow the food
+truck to make a sandwich to inventory is a situation where
+the demand is 0 or vice versa. If we allow the food truck to
+inventory to buffer some customers when the demand is high,
+the flow rate will go up. So in other words,
+inventory helps us with the flow rate by decoupling the supply and the demand. This is one of the reasons why
+companies like to have inventory. Buffer or suffer, there is no right
+answer to the simple question. You notice this by comparing the two
+biggest restaurant chains in the world, Subway and McDonald's. At Subway, as we already discussed,
+customers wait for their sandwiches to be made because the
+sandwiches are made to the customer order. The customer orders the sandwich and then stands there in line potentially
+waiting with other customers, until their specific sandwich,
+uniquely made for them, is completed. McDonald's follows a different strategy. At McDonald's the restaurant makes
+a whole batch of sandwiches. They don't make just one cheeseburger,
+they just do twenty in a row. Then the sandwiches will wait for
+the customer orders. So instead of the customer waiting for
+the sandwich, at McDonald's, you have the sandwich waiting for
+the customers. The benefit of that is that when
+the customer order finally comes in you don't have to make the sandwich,
+you can fulfill it immediately. So instead of having the customer wait for
+sandwiches, the sandwich waits for the customer. We will call the McDonald's approach,
+make to stock, or make to inventory. The main advantage of make to
+stock is that it allows for scale economies in production. You going to produce 20
+hamburgers in a row. The second advantage of it is it also
+allows for a short flow time for the customer order. Now notice that you have a longer
+flow time for the hamburger, but a short flow time for the customer order. In the Subway setting, the benefits of make to order are that
+you can make the sandwiches fresh. The flow time for the sandwich are short, which comes at the expense of
+the waiting time for the customer. It also allows for more customization. It would be impractical to hold
+all potential versions of a Subway sandwich in inventory. By making the sandwiches to order,
+you can allow the customer to choose whether they want extra mayonnaise
+or no onions on their sandwich. The final benefit of made to order, is that your producing in
+exactly the quantity of demand. We'll revisit the question
+of make to order, make to stock,
+when we talk about customer choice. Because make to order allows you,
+as we discussed, to dramatically increase the level
+of customization in the production. Though inventory costs us
+money to store as we've seen in the calculations of inventory
+turns, the examples of McDonald's have shown us that management might sometimes
+be well advised to hold inventory. Let me propose five reasons why management
+might want to hold inventory in the process. There might be other reasons but
+I think these are the most important ones. The first reason for inventory is
+what I call pipeline inventory. Pipeline inventory is a direct
+result of Little's Law, I =R *T. If you are producing wine and that wine
+needs to age for two years before you sell it, well you need to hold two
+years of wine sales in inventory. The second reason for
+inventory is called seasonal inventory. Imagine you're a toy manufacturer and 90% of your sales are happening
+around Christmas. With that in mind, given that you want
+to produce at a relatively steady pace all over the year ,very likely in
+October and November at the latest, you're building up very
+significant inventory. The third reason for
+inventories called cycle inventory. Oftentimes as we already saw
+in the McDonald's example, economies of scale in
+the production of purchasing. Just think about how in your household
+you are purchasing beer, wine, milk, orange juice or
+whatever your favorite beverage is. You might be drinking
+a bottle of beer a day. However it's unlikely that you're
+going to run to the beer store for every individual bottle. You're buying a case and then the other
+bottles sit there in inventory. We've already seen in the McDonald's
+example a case of safety inventory. McDonald's doesn't want to run
+out of hamburgers to sell. So they're producing
+the burgers ahead of demand. They always keep a little
+bit of safety stock, just to make sure that their customers
+don't have to wait for the food. Finally, the last reason for
+inventory is a decoupling inventory. Instead of just buffering us to external
+demand from the customers, wemight also want to buffer us from internal demand
+from other process steps in the operation. So the last three examples
+here are really driven by the variability in the spirit of buffer or
+suffer. The previous two are driven
+really by variations in the supply rate to
+match a seasonal demand. And the first one, the pipeline inventory, is just the minimum inventory
+any operation needs to exist. Buffer or suffer. Inventory can be used to shield us
+from the variability of demand. Inventory can also be used to shield
+us from internal variability, be it in the form of setup times or
+variability in processing times. For this reason, inventory is
+really a very powerful symptom that guides you in proving your processes. Wherever you see inventory, you will
+have supply and demand mismatches. And those tend to be the biggest
+opportunities for process improvement. In this session we also talked about
+the difference between make to order and make to stock. By following make to stock model a firm
+holds inventory even if it has not yet seen the demand. This allows the operations to
+look fast to the customer. Remember, the customer
+doesn't want to wait. The operation looks fast to the customer, even though internally it
+might actually be very slow.
