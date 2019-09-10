@@ -1,0 +1,158 @@
+Many interesting operations are somewhat
+more complicated then what we can analyze presently with our tool box. One reason for this complexity is
+that many processes need to serve multiple types of flow units. Think of an emergency department. They have trauma cases. The severely sick patients. And then there are patients
+that are just mildly sick. Also think about our
+Subway restaurant example. Some people might just
+want to have a cookie. Others want a coffee and a sandwich. And yet others might just want
+one order for the entire family. The consequence of that is
+that the processing times that the customers require when they go
+through the process, they might differ for each and every particular customer. Secondly, even the path
+that these customers take through the process flow diagram
+might differ by customer. In this session, we will introduce a more
+general way of finding the bottleneck in determining flow rate,
+assuming that there's going to be a mix of flow units that's
+going to journey through the process. Consider the situation of
+a tax accounting firm. The firm gets three types of
+cases come to their office. Easy cases, of which they are arriving
+roughly four cases per hour. Regular cases, at a rate arriving at 11
+per hour, and cases with foreign accounts. They're arriving at a rate
+of three cases per hours. Now you notice here in the process flow
+diagram that while we still have the same symbols of boxes and
+triangles kept showing activities and inventory that these three
+different types of accounts are taking different paths
+through the process flow diagram. This is illustrated here by use of color. With the green arrows capturing
+the flow from the filing account, which is different from the red flow and
+from the black flow. How do we find the bottleneck
+in a process like this? This is arguably somewhat
+more complicated. We no longer can use our definition
+that the step with the lowest capacity is the bottleneck. The reason that the definition no longer
+works is that one particular resource might have little capacity, but
+the flow of the flow units might be such that very few flow units actually
+require service at the resource. Let me illustrate how you find
+a bottleneck in a situation like this. You take a look at each of
+the resources in the process. Each and every one of them is
+a candidate for being the bottleneck. It could be, in this case,
+the first step, filing. So foreign department, department one, department two, or
+the printing department. Now each of these resources has a
+capacity, which we just compute as always. A number of resources,
+divided by the activity time. For the first set, that is one over three. This is expressed in
+applications per minute, which we can transform
+to 20 units per hour. In this same way, we find that the
+capacity at the foreign department is six units per hour; 12 at department one; 15
+and department two; and 30 per printing. This is expressed
+an applications per hour. Next, we ask ourselves,
+what's the demand for service at each and
+every one of the five resources? Well, there are three
+types of demand here. There are the foreign accounts,
+there are the regular accounts, and then there are the easy accounts. Each of these three flow units
+is contributing to demand and to various resources. If you look at the filing department, we
+have three units of the foreign accounts, 11 units of the regular accounts, and four units of the easy accounts,
+contributing to demand. This is equal to a total demand, what's three plus 11 plus four
+equals 18 units per hour. In the foreign step the situation is
+different because only the foreign units, three units per hour are going to
+arrive at this department, there is no demand from the regular
+units and the easy units. In department one,
+we have the three units arriving from the foreign department,
+the foreign units. We have the 11 regular ones. But we don't have any ones from the easy. In department two however,
+we have no foreign, no regular, just easy ones at
+a rate of four units per hour. Finally everybody shows up at printing and the total amount there is three
+plus 11 plus four equals to 18. So you notice here that
+a nice process flow diagram, ideally using different colors to
+illustrate the different flows is going to be very helpful
+as you do these calculations. Finally we can compute a ratio
+between the demand and the capacity as a sense of business. We will call this measure
+the implied utilization. Notice that this measure is
+different from our utilization, which we define as a floor
+ray divided by capacity. Flow rate by capacity by definition has to
+be less than a hundred percent, less or equal to a hundred percent. In contrast, implied utilization can well
+exceed 100% if there's more demand for a service than we have capacity. In this case, we notice that 18 divided
+by 20 is implied utilization for filing. Three divided by six at
+the foreign department. 14 divided by 12 at the department one,
+4 divided by15 at department two, and 18 divided by 30 at department three. We see that the highest
+applied utilization, 14 divided by 12, which is roughly 116.6%. This highest implied utilization
+makes department one the bottleneck. The first approach was based on simply
+adding up the flows at the various resources computing a total flow,
+and using that as our demand rate. The second approach I want to
+illustrate is slightly different. Think about work flowing
+through the system. At each of the resources we
+had a certain amount of work that the various resources can provide. For example,
+at the filing department we are able to provide 60 minutes per hour of time. At the foreign department we have
+two persons working there and together they're able to
+provide 120 minutes of work. At department number one, we have three people creating a total
+amount of time available of 180 minutes. 120 minutes for department two, and then a total of 60 minutes
+at the printing department. Now ask yourself how much work time will
+be required by each of the flow units. Similar to the previous calculations,
+we'll look at the three flow unit types. The foreign one, the regular ones,
+and the easy ones. Now, we know It's a filing department. We have three units per hour arriving. Each of them will take three
+minutes of work, regular units. We have 11 units arriving. Each of them requiring
+three minutes of work. And the easy ones,
+we have four units arriving every hour. Requiring three minutes of work each. This creates a total
+workload of 54 minutes. So the units here are really
+minutes of work per hour. In the same way we can compute
+that in the following department we have three units arriving. Just as before, three units arriving, each of them
+first went into 20 minutes of work. This creates a total
+workload of 60 minutes. There is no workload created in the
+foreign department by regular units and the easy units. Department one, we have three times15
+minutes caused by the foreign cases. 11 times 15 minutes, caused by the regular
+cases, and no work cost by the easy cases. In department two,
+we have only the work from the easy cases, of which there are four units an hour
+times eight minutes per unit. Finally everybody shows up at printing,
+creating a workload of three times two minutes for the foreign
+cases, 11 times two minutes for the regular cases and
+four times two units for the easy cases. So if we total these various rows, we see that the workload in
+the department one is 210 minutes. It is going to be 32 minutes
+in Department two, and 36 minutes in the printing department. Now how do we find the bottleneck? We simply compare the time
+that is requested for work at each of the resources,
+Relative to the time available. This creates a score of 54 divided by 60, 60 divided by 120, 210 divided by180, 32 divided by 120 and 36 divided by 60. Note that these are exactly
+the same numbers as we have computed in the first approach. What is this reason? We can still call this
+the implied utilization. So the numbers here are exactly the same
+as they were before as far as the implied utilization is concerned and you also see that these numbers here,
+in each of these columns, indeed correspond to what we
+had in the first approach. The benefit of the second approach
+is that you have more flexibility. For example, it might be that the easiest
+cases take two minutes here at printing, while the foreign account cases
+might take five minutes per case. And now the worse you can make
+the processing time contingent on the flow units, which you can only
+analyze with the second approach. The second approach however
+comes at the expense that is conceptually a little bit more
+difficult because you have to think about the generic flow unit
+being one unit of work. The very useful application or
+new way of finding the bottleneck. This was processes that
+have an attrition loss. Consider the following
+example of a television firm. The firm is looking for new series
+that they can air on television. For that,
+they consider 500 ideas every year. These ideas are pitched. 70 of these 500 are moved
+towards the script development. The scripts then are reviewed, and the best 20 scripts are then
+moved into pilot production. Out of these 20 pilots,
+six are turned into new shows and then the very best two
+are coming out as new series. The computation of finding the bottom
+line in this process is very similar to what we have done. It hinges on the basic idea that
+not every one of these 500 ideas will all the way make it
+over to end of the process. For this reason, it is misleading
+to look at the capacity at each of these five steps and
+pick the lowest one as the bottleneck. Instead, we should do a similar
+calculation as we did before. This starts by first calculating the flow
+of ideas to each of the five units. Only two of these 500 will makes it all
+the way to the new series production. Second we're going to
+look at the capacity. At each of these five resources and
+then third, we will look at the implied
+utilization as a ratio between the flow and
+the available capacity. This will determine
+the location of the bottleneck. Other examples of processes with attrition
+loss Include underwriting processes such as insurance and mortgage applications,
+as well as assembly processes or other production processes
+that have quality problems and where you have to scrap
+a chunk of the floor units. What do you if you have a mix of products,
+of flow units, going through the same process? One complication that we have seen, is a
+flow unit might take different amounts of processing time than another flow
+unit of the particular resources. Flow units might also differ in how they
+will journey through the process flow diagram, as we have seen in
+the example with the attrition loss. In this session, you've learned two methods of how to
+find the bottle neck in such a system. Both methods are what we have based on
+the concept of an implied utilization, which looks at the ratio between
+the work load of that resource relatively to its capacity. Now I have to acknowledge that
+an interesting extension that we didn't cover in this module is the case
+where you can adjust the product mix. You can adjust the products mix to
+optimize some measure such as profits by changing the mix,
+the percentages of the flow units. This is something the requires some tools
+that are a little bit beyond what we can do in this first course.
