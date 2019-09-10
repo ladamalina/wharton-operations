@@ -1,0 +1,244 @@
+This session is a review session for
+module one. If you feel comfortable with
+all the content that we have covered in this module,
+you don't need to attend today's class. What I want you to do in that case,
+is simply go to the Coursera site and test yourself on the practice
+problem that we have posted there. We have posted the practice problem,
+as well as the solution for the practice problem. Then go to the homework assignment for
+this module. Now practice problems are not graded,
+the homework assignments are. To take the homework assignment,
+just go the PDF file, take the assignment at your own leisure, and use a Coursera
+interface to submit the answers. Those will be auto graded, and that's
+going to be part of your overall score for this course. The purpose of today's session is to
+review the content of this module, and to help you practice solving problems. We will do this at the end of each module. Now, these sessions will take
+a little longer because I'm going to review a lot of content. And so please be prepared that this is not
+going to take the usual ten minutes, but might take longer than this. You can fast forward, you can skip,
+and as I said, if you feel comfortable with all the material,
+today's class is entirely optional to you. Here's how we're going to do this. I will post a problem to you in the usual
+lecture format that we have had all through this module, and you're going to
+test yourself taking these questions. Simply pause the video and
+just crunch through the question. Once you're ready to see the answer,
+fast forward and look at how I am going
+to solve the problem. We do this with typically two,
+three, four questions per module and again that's there to give you
+feedback and to improve your learning. Think of this really
+like a TA office hours or a recitation session at
+a regular university curriculum. Let's move to the first question. The question describes
+a situation of a caregiver, who is infusing electrolytes
+to patients or to athletes. Please don't think about cycling,
+doping, and Lance Armstrong here, is infusing electrolytes using 5 steps,
+5 activities. And you see the processing
+times per athlete or per patient over here to the right. It's not that there are five
+workers in this process. In fact, there are only three nurses. And the first nurse does activity 1 and 2. The second nurse does activity 3, and
+the third nurse does activities 4 and 5. What I suggest we do is you
+just pause the video here. And whenever you're ready, you get a sense
+of how I'm going to solve some problems. But you really get much more out of
+this exercise if you try to tackle these questions here,
+questions 1 to 7 on your own. Okay, so pause me here, and whenever you're ready press
+on play on the monitor again. Now the way I want you to get started with
+this process analysis, really with almost all process analysis I can think of,
+is draw the process flow diagram. This is a process that ultimately
+has three resources, first nurse, second nurse, and third nurse. The first nurse has a processing time of 20 minutes per customer or per athlete. That is because there are two activities,
+one taking 7, and one taking 13 minutes. The seconds step has a 12
+minute processing time. And the third one has a total
+processing time of 35 minutes. So where is the bottleneck? To find the bottleneck,
+we have to look for the resource with the smallest capacity. That would be 1 over 20, 1 over 12, and 1 over 35. And so we see that the third step
+is going to be the bottleneck. Again, we find the bottleneck by looking
+at the resource with the lowest capacity. It's also in this case, the resource
+with the longest processing time. But but be careful if we had two nurses or three nurses being staffed
+at the last step here. This would have the longest
+processing time, but it would still not be the bottleneck. So go for the lowest capacity
+to find the bottleneck. Now what is the process utilization here? What is the utilization of
+this entire process assuming, as you could see on the previous slide,
+assuming that we have unlimited demand? Well if we have unlimited demand, the flow rate is going to be
+driven by the process capacity. The process capacity in turn is driven
+by the capacity of the bottleneck, which we said was 1 over
+35 athletes per minute. Now, the utilization is then
+simply going to be 100%, because, again, the constraint
+is the bottleneck, not demand. This is different if you want to
+compute the utilization for nurse at station number 2. With station number 2, we look at the utilization as a ratio
+between the flow rate and the capacity. The flow rate and
+the capacity are as follows. The flow rate, we just said, well look,
+unlimited demand, we can only get patients through the process at
+a flow of 1 patient every 35 minutes. And we divide this by
+the capacity at station 2, which is 1 over 12 athletes per minute. And that gets me at 12 divided by 35,
+that is going to be my utilization. What is the cycle time? Now remember the cycle time is 1 over
+the flow rate, it is measuring at what pace or in what intervals
+athletes are leaving the process. And so you can see here by just looking
+at the processing time, it says an athlete coming out here, assuming
+unlimited demand every 35 minutes. More formally we said that the cycle
+time was 1 over the flow rate. Our flow rate was 1 over 35,
+and so our cycle time is 35 minutes between customers. What is the idle time per
+unit at nurse number 1? Remember the idle time at a resource
+is the difference between the cycle time and the processing time. So the processing time,
+this here PRT stands for processing time. So the cycle time here we said is 35. We have a, excuse me,
+it's the cycle time here is 35, we have a processing time of 20. And so that gives us 15 minutes between customers as the idle
+time at nurse number 1. The average labor utilization,
+remember the average labor utilization is the ratio between the labor content, and
+the labor content plus all the idle time. The labor content, in this case,
+well, the labor content, recall, is the sum of the activity times. So that is 20 + 12 + 35. And so, that's a total here
+of 67 minutes per athlete, divided by the labor content, 67. Plus all the idle time. Well there is idle time at station one,
+which we already found is 15 minutes. And then there's idle time at station two,
+which we can find is 23 minutes. Why 23 minutes? Because we have a cycle time of 35. 35 cycle time minus 12 processing time
+gives me an idle time at station 2 of 23. And so that gets me 67 minutes divided by 105 minutes is my
+average labor utilization. And then finally to find
+the cost of direct labor, we look at the wages
+divided by the flow rate. So wages divided by the flow rate. The wages here are $30 for
+nurse one per hour, $30 for nurse two and $60 for nurse two. So we're paying $120 per hour, and
+we have to divide this by the flow rate. The flow rate we said was
+one at least every 35 and this is, now careful with the units,
+this is customers per hour. To multiply this with
+60 minutes in an hour. And that gives me then
+a total of $70 per customer. Okay next question. I just returned from a lovely vacation
+in the Bavarian Alps in Germany. And had the pleasure to spend some time
+in the German city called Ruhpolding. And so
+this city here I estimate has about 1,200 hotel beds that are especially
+busy during winter season. And so we see here that the average
+guest stays in Ruhpolding for 10 days. As before,
+I want you to pause my video right now and then work through these questions
+that you see listed below. All right how do we figure this out? This is a Little's law question. We have a situation in which we know how
+many skiers there are in the village, because we know that all
+these beds are booked out. And so I know that I have 1,200 skiers. I also know that they are staying
+on average for 10 days. Little's law now tells me that if
+I solve this equation here for the flow rate, R, that there
+are going to be 120 tourists, or skiers, per day flowing
+through the village. And that means that these guys,
+120 are arriving and 120, different skiers of course,
+but 120 are leaving. All right, so that was part a. Part b. So let's figure out the revenues
+of the local restaurants here. Let's figure out their revenues. And for that we have to keep in
+mind that everyday there are, as we figured out just under part a, there
+a 120 guests per day that are arriving. And so these folks their,
+the question indicates, are spending 50 bucks per night. Now there are another 1080. So those are the 1200, minus 120. There are 1080 patients, people. Why do I say patients? Hopefully they are skiers and
+won't become patients. 1080 skiers. And these people are staying,
+going out for dinner. But it's not their first dinner,
+so they're only paying 30 bucks. And so if you add this up you're going to get $38,400 per day. Now how does this change
+when the business change when the shorter stay
+of the skier kicks in? Well inventory equals flow
+rate times flow time. The place continues to be booked out so
+you have 1,200 skiers but now the T here is going
+to go down to five days. And that means that the flow rate, everyday now there are 240
+people coming to the village. And that's actually good for
+the restaurants, right? Because 240 skiers come and
+spend 50 bucks, plus now 1,200 minus the 240, 960 skiers who are on
+their non-first evening. And they continue to spend 30 bucks, and that is now a higher number,
+and, according to my math, that gets me $40,800 per day. So the extra revenue that we're going to get here is we're going to get an extra of $2,400 per day extra. There's another way that you can see this,
+by the way, if you think about the dollars per night,
+if you think about the old world, the guest would give you
+$50 on the first night and then for nine days would give you $30,
+so 9 x 30. And so
+that gives you a total then of $320. And they would do this over ten days and
+so per day you would get, on average, you would get $32 per day. In the new world,
+you have the guests come for their first dinner and
+then they give you 4 X 30. And so every guest is leaving you
+$170 in the village restaurants, but that is now only over five days,
+and so on a per-day basis,
+per day this is now 34. And so you basically, out of each guest, you're making an extra $2 per day. And since there are going to
+be 1,200 beds, and out of each skiers for the average day,
+you're going to make average $2. You're going to get the same $2,400
+per day that we computed below. All right. Ready for the next question. This question is called
+Summer's Sweets and it's about a small Gelato
+store that is having a revenue here of $4.3 million and
+costs of $2.6 million. The first question ask you to
+compute the inventory charts. And the second question asks you to
+compute the amount of inventory that is needed to run this business. Take some time for yourself and
+then we'll tackle this together. All right for
+the first question remember that the inventory turns is driven
+by 1 over the flow time T. So if the inventory spends
+30 days in the process, we speak of one turn a month,
+or 12 turns a year. Now in this case, we notice that
+the inventory only stays four and a half days in the system. And so the inventory turns 1
+over T to simply 1 over 4.5. Now, we have to be careful here with the units because
+the 4.5 is expressed in days. If we want to express this
+in terms of yearly terms, then we have to multiply with 365. And we're going to see we're turning, per year we're turning
+this inventory 81.4 times. The second question asks you
+to compute the inventory, and remember based off Little's Law which is
+really at the heart of all these inventory turns calculations I = R x t. Now in most settings that I've discussed
+in the lecture, from those three variables I've given you inventory,
+and I've given you the flow rate. So when you look at the flow rate, just as
+a reminder, always please look at COGs, do not use revenue for the flow rate. So as I said, typically I've
+been giving you the inventory. Of course, companies can't typically
+know how much inventory they have in their system. Now this question here has given
+us the data supplier as we computed in the first question,
+the inventory turns. And so it's the same equation. It's just you have two different variables
+this time that you know already. And you're solving this time for I instead of in the other settings we have
+tackled this question, we solved for T. Is this practically meaningful? I've found situations like
+this where you have R and T. Those tend to be situations where you're
+planning for a business expansion or even entirely new business. And those are situations where you want
+to compute I to figure out the working capital. In an existing ongoing business
+chances are you know your I. So is this question realistic? Yes, typically if this is a chain that
+is growing and is making predictions for capital needs in the future. So I = R x T. We've said that the R here,
+the flow of money through the organizations at COGs
+is $2.6 million per year. We said that T,
+if you want to express this in years now, is 4.5 divided by 365. And then we going to get,
+if we multiply this all out, we're going to get I,
+an inventory of $32,054. All right, the last question in this
+module review is about the Department of Motor Vehicles. You have in the Department of
+Motor Vehicle in my example here, you have 400 people who are arriving and 1 to make an application for
+a driver's license. About 1% of them fail, because they're not able to produce
+an appropriate identification. 15% then go on and
+fail the written exam, and 30% then fail in the driving test. And if you buy me a drink at some point,
+I'm happy to share with you my experience taking the driver's license test
+in California some long time ago. Anyway, take your time. Read the question. As you can expect, you're asked to
+find the bottleneck in this question. Take your time and then press on
+play again, whenever your ready. All right, the way we want to start this question is
+just drawing the process flow diagram. The first step here is
+the identification of the customer, and some people people fail, right? 1% fail to do this appropriately. The question says we have these
+400 people a day arriving. So 400 flown in, 1% failing. So there's four people
+a day that fail to do this. That leaves 396 who are arriving at
+the second step, the written examination. So the second step then, examination, we said 85% are able to
+do the written exam, and 15% of those 396 are failing. So 396 times 15%, if my math is correct, is 59.4, which then leaves us with 336.6 people who actually want to take, or are allowed to take the road exam. And from those, we said 30% would fail. And so that's about 101, 100.98 to be exact that are failing this and
+from those, excuse me. From those, then 235.62 will be passing the exam, and
+they will be good to go. And so that really gives us
+the answer to the first question. It says unlimited capacity, we are able to serve all this
+amount of this 400 customers. And just because of the attrition lost, this will give an output of
+235.62 applications per day. Now that is a big if, right? That's assuming we have
+unlimited capacity, and so that's most likely not
+going to be the case. And so
+we want to do a separate calculation for the case where we want to
+find the bottleneck. So let's do this one next. All right, how do we figure out
+the station that is the bottleneck in this case here? Well, guess what, there are exactly three
+candidates who could be the bottleneck. The one is the identity check,
+the written exam, and the road exam. It's going to be one of the three, and
+we now have to figure out which one it is. So let's start with
+the processing times here. The processing times are as follows. The processing times are 5 minutes. Then there are 3 minutes
+per application for the exam, and 20 minutes for
+the road test. There's a hidden assumption in here, I have to reveal that we are really
+assuming there are enough computers so that the computers will
+never become the bottleneck. And so we can focus just on the 3
+minutes that it takes the people to administer the exam and
+get the people ready. The next one is the number of people, the number of resources at each
+of the three stations here. There would be 4, then there would be 2,
+and then there would be 15. And that allows us to compute
+the capacity and remember, capacity is the number of resources
+divided by the processing time. Now careful here that this is
+expressed in applications per minute. And if you want to get to the capacity
+in terms of applications per day, we to multiply this with the 60
+minutes that are in an hour and the 8 hours in a day that they work. So that would be this cell here, times 480 minutes in a day, which gets me a daily capacity of 384. All right, the next thing I have
+to figure out is demand, right? So demand is, we know,
+for the identity check, there are 400 people showing up to get the
+demand check, excuse me, identity check. We have, on the process flow diagram, a moment ago identified that there would
+be 396 coming to the written exam. And then because of failure
+in the written exam, there will be 336.6 people showing up for
+the road test, okay? And so that allows us now to
+compute an implied utilization. Remember, the implied utilization is the
+ratio between the amount and the capacity. And that is 104% here, 123% here, and 93% at the last step. So you might now say,
+well look, wait a minute. Really the identity, the capacity
+shortage at the identity check is really keeping the flow from
+these people to the written exam, because you have already a capacity
+constraint upstream to the written exam. That doesn't matter for
+the implied utilization. Implied utilization is demand by capacity. And the most binding constraint on this
+process is where the implied utilization is at its highest, and
+you see that that is at the written exam. So this is going to be
+the constraint on the system. That means that the system
+can only handle 320 applications per day that are going to
+be processed as a written exam. Okay, so
+320 folks can take the written exam. And we know from the case,
+we know from the question, that 85% of them will succeed and
+show up for the driver's test. And then another 70% again will
+succeed of passing the road test. And that leaves a total of 190.4 people
+who will succeed getting their licence, acknowledging now that there
+is a capacity constraint. All right,
+that concludes the review session. You saw these four types of questions that
+I think I can ask you in the homework and the exam. And I hope I also reviewed
+the basic calculations and definitions that we covered
+in this first module.
