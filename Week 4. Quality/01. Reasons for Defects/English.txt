@@ -1,0 +1,122 @@
+The worst thing about going
+to the doctor is waiting. I think I was wrong with that statement. I think that the worst thing that can
+happen to a patient in a care process is to experience a quality problem. Experts estimate that there
+are close to a 100,000 people dying because of medical errors alone. I'm in no position to judge this number. I do know however that patients suffer
+from infections that could be avoided. Medications are given
+to the wrong patients. And sometimes surgical devices and instruments are forgotten in
+the body after a procedure. This session is about quality. There are two dimensions of quality. There's performance quality which
+measures to what extent a product or service that we're providing is
+meeting customer expectations. Then there's conformance quality,
+conformance quality measures whether the process is carried out the way
+that we intend it to be carried out. Our module focuses on conformance quality. When we deal with conformance quality, we will notice that variability once
+again is the root cause for all evil. Just think about it. Without variability, we would either
+do everything right every time. There would never be a defect. Or we would do things
+wrong all the time and then chances are we would get
+out of business very quickly. In this first session we'll introduce
+some basic probability tools to think about with what likelihood we're
+going to make a defect in the process. Consider an assembly line that
+puts together laptop computers. The assembly line consists
+of nine stations. And let's say for the sake of argument
+that each of these nine stations has the probability of 1%
+of producing a defect. Let me introduce some rotation. Let's take this resource here,
+which is number six in the process. We say that the yield of that
+resource is a percentage of units that this resource produces
+according to specifications. In this case this is simply one minus the
+probability of our defect which is zero. Ninety nine percent. More over we define
+the yield of the process. As a percentage of parts that
+are produced at the end of the process according to specification. The yield of the process of course
+depends on the individual yields and defect probabilities of the resources
+that make up for the processes. In our case here, since we have
+a linear process flow diagram, and a computer that comes out at the end,
+has to be produced correctly at every one of the nine steps, the yield is simply
+the product of the individual year. In other words, it has one minus
+our defect probability of 1% raised to the power of nine,
+which is about 91%. You notice here,
+the power of the exponent. If I take, just for the sake of
+illustration, if I take even a 99% probability of doing something correct,
+and I have many, many steps. Say for the sake of argument,
+I have 50 steps in the process. My probability of producing something
+correct at the end of the process, my process yield, is about 60%. There's even small defect
+probabilities in assembly lines or in its processes with many operations can
+accumulate a lot of problems at the end. So those are the ideas of yield,
+process yield and defect probabilities. Now one process is required at every step
+is carried out according to specification. Some processes have built
+in redundancy and so they can afford that step in the process
+is carried out with a defect and still the overall quality of
+the output is not a factor. Let me illustrate this concept of
+redundancy with a classic case study of the Duke Transplant Center. This is the rather sad story of 17
+year old girl Jessica Santillan. Jessica died following a heart lung
+transplant at the Duke Transplant Center. The reason for that was that there was a
+mismatch between Jessica's blood type and the blood type of the organ donor. The story started when Dr.
+Jaggard who was Jessica's surgeon received a phone call by the New England
+organ bank in the middle of the night. The New England organ bank
+offered him the organs for another one of Doctor Jaggard's patients. Doctor Jaggard felt that the organs were
+inappropriate for this other patient, but in part of the phone call asked
+if he could use them for Jessica. The New England Organ Banks
+have always knew that if Dr. Jaggards was asking for the organs for
+Jessica, they would match the blood type. Vice versa, the work flow at
+the transplant center and Dr. Jaggard explicitly assumed that if the New
+England Organ Bank were offering the organ for Jessica,
+they would check the blood type. At the end of the day nobody checked. In the aftermath of Jessica's death
+a group of experts were put together to assess what went wrong in this process. They estimated that about
+one dozen care givers had the opportunity to notice a mismatch. Typically, a single mistake in this
+type of process would have been caught. If one person forgets to
+check their blood type, well there are 11 others
+who could have noticed. But if 12 people at the same time all make
+a defect at once, the outcome is tragic. British psychologist James Reason has
+developed a model to explain accidents and disasters. This model is referred to
+as the Swiss Cheese Model. The idea of the Swiss Cheese Model
+is as follows. Think about a slice of swiss cheese. In the slice, we have a couple of holes,
+and we think of a hole as a defect. Now the swiss cheese model doesn't look
+at one slice of cheese in isolation but asks what happens if you stick multiple
+slices of cheese on top of each other. With a certain small but
+positive likelihood you can stack up the slices of cheese and
+all the defects line up. And the outcome is tragic. This is the idea of redundancy. As you add multiple layers of
+cheese on each other it is less and less likely that you can see through
+all of the slices at once but again the outcome probability
+is still not zero. So what's the probability of
+a defect in a situation like this? Now if we draw this as a process
+flow diagram, redundant check typically corresponds to parallel
+paths on the process flow diagram. I've illustrated this here
+with the three paths. Those are all happening on the way
+of producing this flow unit. Now the orange boxes here
+are the redundant test points. What's the probability if each of them
+makes a defect, there's a 1% likelihood. Well, the likelihood of us
+making a defect at the very end is simply 0.1 raised
+to the power of three. If every one of them catches the defect, the redundancy kicks in,
+and the defect is detected. So in order for the defect to happen here at the end,
+all three of them have to go wrong. We can then define
+the unit of this process as one minus 0.01 raised
+to the power of three. So you notice how the process flow
+diagram and your understanding of what's happening in the process is driving
+how the individual defect probabilities get aggregated to an overall defect
+probability into the process yield. In this session we've discussed
+two examples of defects. In the assembly line example we saw
+a situation in which a defect anywhere in the process would lead to
+a defected unit a flow at the end. In the swiss cheese situation we could afford to have some
+mistakes in the process but due to redundancy this will not
+necessarily lead to a big unit output. Multiple things have to stick out in
+a bad way to lead to that fatal outcome. We've talked about how you can look at the
+process flow diagram and then think about how to aggregate the individual defects
+and compute an overall defect probability. And that allows you then
+to compute a process here. When improving processes like the ones
+we've discussed, especially the swiss cheese situations, it's important
+to not just go after bad outcomes. Hopefully these bad outcomes at the end
+of the process are really rare. Instead you want to look at
+internal process variation. This is the idea of near misses. It's also an idea that we will see in
+more detail in the session on Six Sigma. The worst resources are those that
+sometimes work and sometimes they don't. If a resource always works, and
+never does any defects, wonderful. If it always broken, and everything
+the resource touches gets defective, we'll figure that out pretty quickly. In this session,
+we have used simply probability theory to describe the likelihood of
+a resource producing a defect. We can then use defects in our
+understanding of the process flow diagram, to describe the percentage of flow
+units that are produced correctly. We refer to that number as
+the yield of an operation. Now not every time a resource
+does something the wrong way, we'll get a yield loss at
+the end of the process. Some defects in internal variation
+are absolved by other activities. There's redundance oftentimes
+built into the process. However, understanding such
+deviations in the process, even if they do not lead to fatal
+consequences at the end of process is a very important point of
+a good quality management program.
