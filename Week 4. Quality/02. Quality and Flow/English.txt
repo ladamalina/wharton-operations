@@ -1,0 +1,184 @@
+Resources of positive probability
+of creating a defect, this has to be captured in
+the process flow diagram. In this session, we will see how this can
+either take the form of scrapping the flow unit, which means we just drop it from the
+flow, or re-working the flow unit, which means repeating some of the operations
+that has happened before the defect. Either way, defects show up in
+the process flow diagram and have the potential to make a resource
+bottleneck that without these rework loops would not be a bottleneck. Moreover, in addition to just changing the
+flow of the flow unit through the process flow diagram defects also increase
+the variability in the process. Think about it,
+a defect probability of 10% at a resource, doesn't mean that exactly
+every tenth unit is defective, but it's a probability statement that
+leads to variability in the flow. And we already know that variability in
+flow Is a big enemy in a lean operation. How do we deal with variability and flow? We're going to repeat our old
+tension between buffer or suffer, and we'll once again notice that
+there's no easy answer to this tension. Let's ignore the effects of
+variability for a moment and turn our attention to
+the following process. So three step process with processing
+times being five minutes the first resource, four minutes at the second,
+and six minutes at the third. Where is the bottleneck? Assuming though that there is a defect
+probability 50% at the second resource. With a 50% probability, the floor unit following the work
+at step two has to be scrapped. Well, in the past we
+have done if analysis. We have looked at
+the capacity of the resources is simply one over five units per minute, one over four units per minute and
+one over six. We multiply this with 60 minutes
+in an hour, we get capacity of 12 units per hour, 15 units per hour,
+and ten units per hour. So would we really say that
+this step is the bottleneck? We have not considered
+the fact of the scrap rate. If you want to consider that,
+the units that goes through step two, only half of them will actually
+make it to step three. How do we factor that into the analysis? I want you to rethink about how we take
+our process flow diagrams when we have multiple types of flow units. In this case, we often look backwards and
+as ourselves what is the demand for each of the resource that
+is needs to be served. Now assume that we have
+a demand of D flow units. How many units do we have to be
+serving at station number three? We have to reach serving D units. Everyone that needs to get served, one to one,
+has to go through section number three. How does it look for station number two? Well, I have to serve two times
+D in order to get D units for outputs of station three. Similarly, also at station one
+I have to produce 2D because the half of the unit will
+be scrapped at station two. If I now look at the demand relative
+to capacity, which we then refer to as the implied utilization I
+actually can find the bottleneck. 2D divided by 12, 2D divided by 15, 1D divided by ten. So the implied utilization
+is at the maximum and it's the first step over here. So we would call this step the bottleneck. And you see how the scrap
+rate actually is impacting where we have the bottleneck
+in our process. Instead of scrapping a flow unit,
+I can also rework it. Rework means I'm going to repeat one or
+several operations and after the rework is done, the flow unit that was previously
+defective becomes a good flow unit. Consider the following example here. I have three process steps. The first process step has
+a processing time of five minutes and never does a defect. The second process step is a four
+minute processing time and with a 30% probability, makes a defect. However, I'm going to catch that defect
+right at the completion of the step two and
+if I going to repeat the operation, I'm going to spend another four minutes,
+I'm going to fix the flow unit. Let's assume for
+now that re-work also always works and fixes the unit in the first
+pass of the re-work. And then finally,
+I have a third step here in the process with a processing time of two minutes. Where's the bottleneck? Well, a very naive analysis would suggest
+that we just take the processing times to one over the processing time
+to get the capacity levels so that means one over five units per minute. One over four and one over two. However, rather obviously this
+analysis misses the effect of re-work. Re-work can make an activity that
+previously has been a none-bottleneck step a bottleneck just because it sucks up
+extra capacity for the re-work load. So a better analysis
+goes something like that. Instead of saying that
+my processing times. Five minutes, four minutes,
+and two minutes. I have to acknowledge that for
+the second step, with a 70% probability,
+it would take me indeed four minutes. That means everything goes well. However, with a 30% probability, It's
+going to take me four plus four minutes. So the expected processing time,
+is simply 0.7 times 4, plus 0.3 times 8, which is equal to 5.2 minutes. No impact on the processing times,
+it's the first and last steps. So five and two minutes, and
+I see here that the true capacity really, the true capacities are 1/5,
+1/5.2, and 1/2. Which reveals that really,
+the second step is the bottleneck. Alternative calculation to the same idea
+is to use the calculations of implied utilization, which we have in the example
+of processes with multiple flow units. Just call the flow rate demand. Let's just assume that we're processing
+here at a certain unknown rate, and we're pleasing a certain demand rate. Let's called this demand rate D. If we start with D,
+we realize that the demand rate for the first step is simply D. For the last step, it's going to be D. However, for the second step here
+the demand rate is really 1.3 D. That is simply revealing that for
+30% of the flow unit, I'm going to add another round of
+processing at the second step and so the flow has to be 1.3 D. If you read them,
+we call our definition of implied utilization as the ratio of demand
+to capacity, you're going to get D divided the capacity of one over five,
+which is 5D. Then 1.3D divided by the capacity of 1/4 and finally D divided by 1/2 which is 2D. So you notice here that
+this is 5.2D which is a highest imply utilization making
+the second step indeed the bottleneck. Now the strength of the effect of defects
+creating a variability in a process. Consider the following
+example of a two set process. Both sets have a processing
+time of five minutes. Both steps also have a probability
+of 50% of creating a defect. In that case the processing
+time goes up to ten minutes because it requires
+an extra five minutes of rework. What's the flow rate going
+to be in this process? Well, let's think of all
+the scenarios that can happen. In the best case,
+;both of them create a good flow unit. Let's take G here for good flow unit, and that happens with
+a probability of one over four. And in this case we're going to get
+a flow of one unit every five minutes. However, it's also possible
+that the first step messes up, and the second one does
+the flow unit correctly. Guess that's also probability
+of one over four. Now, what happens? In this case, the first resource will
+take ten minutes to complete the work. However, the second resource is done after
+five minutes and is then out of work. We say that this process
+starved at resource two. Resource two is starved of work,
+and the flooring goes down to 1/10. Now, the opposite can
+happen of course as well. The second step messes up. The first one operates correctly. Again, the temperance was a probability
+of 1/4, and in this case, you notice that the first step doesn't
+have any place to put the flow yet, right? Because these guys are still
+not working on the floor unit. And so we say in this case,
+the first resource is blocked. And then finally, of course, if both of them missed out which was also
+happening with the probability of 1/4 I've also already did a process called
+the process completed every ten minutes. So you notice that on
+average the flow rate is actually dramatically slower
+than one unit every five minutes. That is because of the variability. If you want to avoid blocking and stopping, we can put the buffer between
+the first step and the second step. This gets us back to the idea of buffer or
+suffer. The bigger the buffer,
+the lower the likelihood that the first step gets blocked and
+the second step gets stopped. So inventory protects
+us from variability and thus helps us to obtain a good flow rate. Consider the following method
+from the lean literature. Think about inventory as water in a river. You're operating a boat on a canal and in the river unfortunately
+there are a bunch of rocks. These rocks correspond to all
+the hiccups that can happen in a process such as defects, setup times,
+and other complications. Now on the one hand, we as the operators of this boat,
+we prefer not to bump into these rocks. And so we have an incentive to pour
+a lot of water in this river so that we get high above the rocks. The problem, however,
+is that now that we have so much water in the river,
+we'll never see these rocks. These rocks are not exposed, and
+they stay in the river forever. The same applies to inventory. If you put so much inventory into the system, then we
+buffer every eventuality out of the way. We start taking the pressure
+off process improvement. So the Toyota production system
+with the lean literature argues actually the opposite. Instead of buffering system,
+we should reduce the buffers so that we expose problems. We should do this
+gradually instead of taking all the water out this river at once. But gradually step by step will
+reduce the water level and expose the most significant rock. Once we've identified the rock,
+we go after the underlying root cause, we get rid of the rock, and again,
+start leveling the water level. So as you notice,
+this creates a certain paradox. On the one hand, you need some inventory
+in the process just to lubricate the flow and to deal with sea buffer or
+suffer a paradox. But on the other hand,
+too much inventory in the system and people start slacking off. They have no reason any more to work hard
+or to improve the process any further. To control the amount of
+inventory in the process, the Toyota production system has to
+developed a concept Kanban cards. Imagine we are selling these beautiful
+little black boxes to our customer, but the customer demand. The end customer demand
+is here on the right. If an internal supplier and
+also departments that supplies us with containers that include
+nine of these black boxes. Once we have emptied one
+of these containers, we're going to take the cargo stickers
+that is attached to the containers and we'll remove that card to the department
+that is feeding us with the black boxes. This sticker on this card
+is called to Kanban card. It's also known as the work
+authorization form. Now, folks in departments supplying us, they have to sit there idle, waiting
+until we provide them with a Kanban card. At that time,
+it looks very unproductive but it certainly better than
+producing inventory. So only when these guys
+are going to get our Kanban card, our work authorizations, are they able
+to produce the next set of nine units. By definition, the working forces inventory is never
+bigger than the number of Kanban cards. This allows us to keep a cap on inventory,
+and this allows us to control
+the inventory level. Just like with the board on
+the river on the previous slide. In the early days of the process,
+when there are still defects or other problems,
+we issue an extra couple of cards. As the process gets better,
+we remove some cards in the system and we put more pressure on
+the process improvement. Now you notice how this system
+is implementing a pull system. Rather than everybody in the process
+working as hard as they want and pushing the work forward,
+it is the demand that drives the system. Through the Kanban cards, the system pulls the work through
+the process as opposed to pushing it. Buffer or suffer, they fix provide
+a reason for us to hold inventory. Since we as the managers like a good,
+continuous flow through the process, it is tempting to us to buffer the flow. These buffers then avoid the resources
+is a starved or get blocked. The flow must go on, and so
+buffers help with the flow. The problem is however,
+that buffers are not particularly lean. In fact, I would argue they're as unlean
+as it can get, and if you remember our discussion, from the seven sources
+of waste from the productivity module, inventory is really the worst of
+all the seven sources of waste. One reason is they make us
+comfortable with slack. And they just make it more likely that the
+operators in the process just get used to defects as opposed to continuously
+trying to improve the process. We saw that Kanban is for us as mangers
+of way to keep a cap on inventory. To control how much inventory
+can be in the system. And by setting the right number of Kanban, we can adjust the inventory in the process
+to our current process capability. The Kanban processor is
+based on the idea of pull. Instead of pushing work into the process,
+Kanban implements that pull where machines and operator only get activated if
+there's downstream demand from them. Not because of idle time or
+input availability, but because of the need for output.
