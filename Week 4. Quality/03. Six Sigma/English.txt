@@ -1,0 +1,130 @@
+In 1988,
+creative EU bureaucrats in Brussels created EU Resolution 1677-88. The resolution said that for a cucumber,
+in order to be of the highest quality standard, its curvature should
+not exceed ten millimeters. With a cucumber an eleven
+millimeter curvature, it was no longer in
+the highest quality level. Nine millimeter, however, was fine. Now this little anecdote clearly tells
+us something about the creativity of politicians to come up with stupid laws. But more to the point of this session, it reminds us that often the matter of
+good or bad is not as binary as it sounds. Oftentimes, there's an underlying
+parameter that can be measured, be it a geometry, a weight,
+or a temperature, and this underlying measurement has to
+be compared with some specification. This is the basic idea behind Six Sigma. Now I have to confess that I found
+it was below my academic dignity of going to the local market and purchasing 50 cucumbers only to take then
+out a ruler and measure their curvature. Instead to illustrate the concept of
+Six Sigma I did something much sweeter. Sweeter, though potentially unhealthier. I went to the local grocery store and
+bought 50 bags of M&Ms. I then took out a high resolution scale
+to measure the weight of these 50 bags. Here is the data that I got. Take a look at this data. For example, we can compute the average
+of the weights in the sample. This was about 50 gram and
+I have to confess was significantly higher than what the company
+has labeled on the bag. That was about 47. You also see that the standard
+deviation is about 1.1. To get a visual of the distribution we
+can use the histogram analysis in Excel. For that, go to Data Analysis,
+click on Histogram, enter the data here as the Input Range,
+enter the data. As the Bin Range enter a number that
+is slightly below the lowest value and the number that is slightly above
+the highest value, and then click on okay. Now you get a chart that looks like this. This is a histogram of the weights and,
+surprise surprise, it's interesting to see how
+the laws of statistics kick in. The distribution here
+is almost normal-like, with most of the values being here
+somewhere in the middle around the mean. And some of the bags being either
+extremely light or extremely heavy. We will use that statistical distribution
+in our calculations in a moment to figure out how many defects there
+will be in a very large sample. Now how should we define
+an M&M bag as defective? Having eaten them all I have to confess
+that all of them were quite yummy, and so I have a hard time speaking about defect. But lets say for the sake of argument
+that we have a specification that a bag should have at least forty
+eight grams of chocolate in there. We refer to this number as the LSL which
+stands for the lower specification limit. Similarly we speak of the USL, the upper
+specification level, as the number that if exceeded we would call the bag
+defective, so lets say for the sake of argument the bag is defective if they have
+more than 52 grams of chocolate in there. With these two numbers I can
+compute a number that is known as the capability score. The capability score, also known as
+the CP score, looks at the ratio between at the ratio between the weights
+of the specification level relative to six times the standard
+deviation in the process. This number here tells us
+the capability of the process. Notice that the way that we can increase
+process capability is by either making the specifications more forgiving. It's the higher capability if would
+assume the specifications were 47 to 53. Or maybe using the standard variation. Both of these will reduce
+the likelihood of defect. Let me illustrate the object of capability
+support on the following slide. Just as a reminder, this is
+the definition of the capability score. The upper specifications of it minus
+the lower specifications of it, divided by 6 times the standard deviation. Now imagine two distributions. One of them has a density function
+that has a little larger variance. And you notice here,
+how you can go three standard deviations from the mean of the distribution
+before you hit the specification limit. Now on the lower case you see
+the distribution that has a lower variance that you need to go six
+standard deviations before you're going to incur a defect. Now clearly defects are less
+likely in the lower case. There's simply less probability
+mass at the tails here. So this suggests that we can compute or
+we can translate the capability scores of the distribution into
+the probability of defects. Let me illustrate this calculation
+by going back into our spreadsheet. So how likely is it going to be that we
+encounter bag of M&Ms that are heavier than 52 grams? So what's the probability
+that the bag is too heavy? I can get to this by using the normal
+distribution function in Excel and looking at the 52 grams
+relative to a distribution with 50 as a mean and
+1.1 as the standard deviations. That probability is 96%
+that it stays below this, or the probability is to heavy,
+it simply one minus that, which is 3.4%. Now next, ask ourselves what's probability that this is too small
+of a bag, or that this is too light? Well for that I have to look
+at the normal distribution. This time with the lower specification number, 50 and
+1.1 is the standard deviation. And this is equals 3.3%. Now for a defect I either need
+to have the bag be too heavy or too light, and so the sum of those two
+is simply the probability of a defect. Now I can take this number and
+I can multiply this with, say, a million units in a production run to get a number that is known as the ppm,
+the parts per million. So we have 67,818 defective
+per million parts. So you notice that
+the capability score for around 0.6 as we just
+saw in the M&M example. This equating to a defect
+probability of around 0.067%, or put differently,
+67,000 defects in a million parts. Now, in this table we
+show the relationship between the capability score and
+defect probabilities. For example, at a capability score of 1,
+we can go three sigmas from the mean to either
+side of the specification levels. And we have a defect probability of 0.027. Put differently, you're going to have
+2,700 defects per million parts. No where did these numbers come from? Now let's first look at
+a three sigma process. What's the defect probability? Well I have to go three
+standard deviations before I hit the specification element. Let's assume the underlying distribution
+is a standard normal distribution, which is having a mean of zero and
+a standard deviation of one. So for a defect,
+I have to hit the number 3. So I'm looking at the normal distribution,
+mean 0, standard deviation of 1,
+which is the value of 99.865%. So 1 minus that probability, gets me the
+probability of the part being too large. This is also the probability
+of the part being too small. So, assuming here's symmetry,
+I can just double this number and that gives you the 0.027 that you
+all saw on the earlier table. Now let's move this further and
+look at the six sigma process. With six sigma,
+you have to go six standard deviations and you notice that this number here
+becomes ridiculously small. It's a little hard to interpret here so
+let's not look at it as a probability but as a defect per million parts. So we have to multiply
+this with one million and we see that the number
+here is roughly 0.002. In other words we're going to
+have 2 defects per billion parts. So a quality target is typically
+expressed in defect probabilities, or parts per million. We see in this table that can be
+matched to a capability score. This allows me to ask myself for a given
+specification limit, what is the amount of variability in the process that I can
+tolerate before violating my quality goal. Let me go back to the example of the M&Ms. So we said we had the USL-LSL/6sigma and that had to be, if I'm aiming for 6 sigma
+operation, that would have to equate to 2. Now, in our example,
+the difference here between the USL and the LSL was 4 and so
+that gives me an equation I can solve. 4/6sigma=2. And so in other words sigma
+is equal to one-third. So just to gain some confidence
+in our calculations, let's go back to our sales spreadsheet and take the current comparably observed
+standard deviation of 1.1 and replace it by our new goal of
+a standard deviation of one-third. Of the numbers we compute and you see that
+the parts per million go down to 0.002 which is the two parts per
+billion that we talked about. In 2009 the EU bureaucrats finally
+decided to cancel the resolution 1677-88. That makes you hopeful that one day
+they can also resolve the Euro crisis. But more to the point of this session, we saw that variation
+exists almost everywhere. Even in a highly industrialized product,
+such as packaged M&M chocolate, we saw a considerable amount of
+variation from one package to the other. Would you really call the package a defect just because it has one extra
+gram of chocolate in that? That is a matter of
+the product specification. We saw how the CP score measures
+the process capability by really looking at the variation
+that you have in the process relative to the allowable variation
+that you get out of the specifications. We also saw that it's the capability score
+of something that tells you how many defects you're likely to make in
+a thousand or in a million parts. And that's a really good metric that you
+want to track over time to see how you're getting better, or across your suppliers to see who's
+giving you the highest quality product.
