@@ -1,0 +1,105 @@
+In the last session we saw how even a very
+industrialized product, such as M&M chocolate, can have considerable
+variation from one product to the next. So when you're on the line and you encounter some variation that the
+chocolate in this package was heavier than the chocolate in this package,
+how do you react? How do you know whether this was just part
+of the normal way of doing business, or that there was the cause for concern? This session will introduce
+a concept of controlled chance. Controlled chance will help us to
+distinguish between what we would call as normal and abnormal variation. Controlled chance a part of a broader
+toolbox known as statistical process control. Let me formalize the idea of normal and abnormal variation with
+the following example. Now I now that over the last few weeks
+you've had to suffer through my crappy hand writing, and so
+this example will resonate with you. On this page here I've written
+three rows of the letter r. For the first row, I used my better hand, if there is such a thing in my
+handwriting such as a better hand. I used my right hand to write
+eight times the letter R. Now you notice not every R is identical,
+there's some small variation from one letter to
+the other but they look pretty similar. We refer to the variation from one letter
+to the other as a common cause variation. And the level of common
+cause variation here is low. Now look at the second row. This row was written with my left hand,
+and I really can't write with my left hand. Now you'll notice that the variation
+from one letter to the other is bigger as you go from say
+the seventh to the eighth letter. There's a high level of variation, but
+it is still a common cause variation. They all kind of look similar in pattern. Now look at the last row. In the last row,
+you notice a big jump in the types of letters as you go from the fourth
+letter to the fifth letter. The reason for that, I wrote
+the first letters with my right hand, and then I switched hands to write
+the last four sets of letters. This is called an assignable cause. There's something in the underlying
+process generating the letters that changed. Our role in statistical process
+control is to measure the amount of Common Cause Variation exactly using
+the tools that we saw in the last section talking about six sigma. But then also being aware and recognizing
+if an Assignable Cause Variation happens. So how can I distinguish between
+an Assignable Cause Variation and a Common Cause Variation in my process? Let's revisit our example of the M&M bags. Imagine I would go to
+the grocery store every day and take a sample of five bags of M&Ms. I would then take the average
+of these bags and I would plot them on a chart
+that roughly looks like this. Now I know that the bags weight would
+follow some underlying distribution. If I have a weight that is equal to 50 or
+close to 50, I know that this behaves according to our
+sample mean that we have computed before. However, if I find a bag that is
+particularly heavy or particularly light, I should be concerned that there might
+be some assignable cause going on. Now in our calculations we
+are going to set the control limit as three standard
+deviations above the mean. And we're going to set
+the lower control limit at three standard deviations below the mean. And can then ask myself with what
+probability was sample average of five bags fall within this range and
+outside of this range. Now statistics tells us, that this band,
+six standard deviations wide, explains for 99.7% of the observed cases. Put differently, if I observe
+an average of a sample of five that is outside this band,
+I can say it with 0.3% confidence, that some assignable cause
+just happened in this system. So let's revisit our M&M data. Suppose that the samples that
+we discussed in the last session was obtained as follows: I went to
+the store on ten subsequent days and every day I got five bags. Now let's do some calculations. First of all, we can compute the averages of the weight that I obtained
+on any different day. Now how do we interpret that number? This is an average over five numbers. I know that, by the laws of statistics,
+the standard deviation of the sample of five
+will have a standard deviation of the overall population divided
+by the square root of five. So if I want to figure out the line for
+the control line that is three standard deviations
+below that, I have to basically look at the mean of 50 in this
+overall population, and I have to subtract three
+times the standard deviation of the samples that I'm
+likely to draw on a particular day. Similarly, so this is a lower
+control limit, the upper control is computed simply by taking the mean and adding three times the estimate
+of the standard deviation. So this is the mean, this is the lower control limit and
+this is the upper control limit. Now of course the mean changes from day
+to day, as you see here on the chart. Now when we plot this information,
+you see the basic idea of a control chart. You see how the sample mean is
+changing from day to day and how all of these changes
+are inside the control limit. Now please separate in your mind the idea
+of the specification limits that we talked about earlier on and the control limits. The control limits only tell us to
+what extent the process is behaving according to its normal variation. It doesn't say anything whether
+the past produce is defective or not, it's just looking for
+an assignable cause variation. If I now go to the store
+on an eleventh day and I'm going to draw a sample with an average
+that is either above the green line, or below the red line, I know there
+was an assignable cause that occurred. Based on our discussion of six
+sigma in the previous session and the current session's
+discussion of control charts, we can summarize the idea of
+statistical process control. Statistical process control is
+basically a never-ending circle. You start by collecting
+data about your process and measuring the current capability. You then use control charts to see
+if the current process performance is in line with the empirical regularities
+that you've seen in the process. You're looking for
+assignable cause variation. When this assignable cause variation pops
+up, you try to figure out why it happened. The control charts give
+you the trigger event. They tell you that something has happened,
+you then have to identify the root cause. We'll talking about root cause problem
+solving in one of the coming sessions. Once you find the root cause,
+be it a machine or an operator, you try to eliminate
+the assignable cause variation. This gets you back to the starting point. As you are doing this, hopefully you
+are able to reduce the variation in the process, and also increase
+the capability score of your operation. In this session, we saw how we can use
+the laws of statistics to permanently and continuously test the hypothesis that
+a variation that we saw in the process was an abnormal variation due
+to some assignable cause, or whether it was just the normal
+way of doing business. Control charts are a very powerful tool
+of keeping on top of your process. Between you and me, let me confess
+that I'm even using a control chart to map out my weight on
+every morning in the week. Now one nice side benefit of
+the control chart is just tracking the data in it by itself even if you
+don't use the control limit, but just plotting the mean over time can
+be very motivational and very visual. Oftentimes, really, just seeing that data,
+if you think about a diet, but also about a factory performance,
+seeing that data is extremely powerful. Now there are many other forms of
+control charts beyond the X bar charts that we saw in this session. However, I think with the intuition that
+you got in this session you have the basic ideas behind this broader set of tools
+known as statistical process control.
