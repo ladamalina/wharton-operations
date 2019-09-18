@@ -1,0 +1,105 @@
+Testing a process control is
+about measuring variation, detecting abnormal variation,
+and then reacting to it. In this session we'll talk about
+the Toyota production system and how it deals with quality. We will introduce a detect, stop, alert
+framework and we'll introduce two new terms to your Japanese vocabulary,
+Jidoka and the andon cord. Catching defects quickly is critical. There are at least two reasons for that. First, we'll see that defects
+often lead to further defects, especially if there is a lot
+of inventory in the process. Second, if we have
+a defect in the process, it's critical that we catch it
+before it moves to the bottleneck, because otherwise, scarce bottleneck
+capacity is wasted on the defect. Now let's look first at the role of one
+defect and its impact on further defects. Here are two processes. The first one has a big inventory between
+the two steps that make up of the process. Assume that every of the activities
+shown in either of the processes has a one minute processing time. Now, imagine that at some point,
+the operator who is making the first step here in the process,
+starts making defects. So the operator has a bad moment and
+starts making defects. How long will it take until somebody,
+in this case our second operator, will catch the defect. Well, by Little's Law,
+we know that there are many other units in inventory before this unit
+finally reaches the next step. That gives the second operator no way of
+giving feedback to the first operator. The feedback loop is broken by inventory. We speak about the process having
+a long information turnaround time. Long information turnaround time delayed
+feedback, keeps us from improving. In the second example of the process
+being lean and the inventory between the steps relatively low, you notice that,
+after two cycles at the latest, the second operator will get the defective
+part and can trigger an alert. Again, this triggers process improvement
+action and the process becomes better. Now that we understand how defects
+impact the bottleneck calculations, let us understand some of
+the economics of defect. What are the costs of making a defect? Consider the following example. In a restaurant,
+I'm sourcing pasta from the market. I have somebody who brings the pasta from
+the market and puts it into the kitchen. That's the preparation step. I then have a busy and
+famous chef who is preparing the meal. Finally, somebody puts the meal on
+a plate and brings it to the customer. You're charging $20 for each meal and so
+are enjoying quite a significant markup. Now, what is the cost of making
+a defect of this process? Is it driven by the two dollars per meal
+that it costs us to source the pasta, or is it driven by the $20 that
+we can make by selling the pasta? The answer to this question would
+depend on where the defect happens, or more accurately,
+where the defect is identified. If the defect happens here as we come back
+from the market and we're dropping some pasta on the floor, all we have to
+do Is buy another round of pasta. So as long as the defect happens before
+the bottleneck, it just costs us $2. If, however, the chef has already spent
+all the time preparing the meal and the defect happens as we're
+serving the food to the customer, just say the server is dropping
+the pasta on the floor, we have to go back to our scarce resource,
+and go back to the bottleneck. Since the bottleneck is
+a constraint on the process, we really have to charge
+a $20 to this type of defect. So you notice how defects that
+are happening before the bottleneck are really just driven
+by the input process. Defects that are happening after the
+bottleneck, however, need to be valued at the cost or, more strictly speaking,
+the opportunity cost of a unit of sales. Notice in this example that the crucial
+question is not where the defect occurred, but where the defect was identified. If we buy bad pasta and
+we have the bottleneck spend time on preparing the meal, we catch
+the defect only after the bottleneck, it didn't matter that the defect
+occurred before the bottleneck, but it mattered that the bottleneck
+spent time on it. This drives the location of
+test points in the process. It's important that we test flow units as much as we can before we
+put them into the bottleneck. So detecting defects quickly is critical,
+be it because of learning or because you want to
+avoid waste incapacity. We've already seen how control charts
+can help us catch abnormal deviations of the process, and
+that triggers some sort of an alert. The Toyota Production System
+has produced a similar idea. That`s the idea of jidoka. Jidoka is about alerting an operator or management that there's
+a problem in the process. That means that the process has to be able
+to detect there is a problem in the first step. This comes from the day when Toyota was
+actually still building automated looms. Before their auto days,
+Toyota was a loom company, and when a loom is out of control,
+it's a disaster. You want to cut it down
+as quickly as possible. So the loom studio, they figured out, should be able to
+self-detect if they have a problem. Detect, alert, and then finally stop. Nowadays, Toyota is no
+longer making looms. It's an automotive company
+with a long assembly line, and jidoka was introduced in the assembly
+line in the form of the andon cord. The andon cord is a long rope that runs
+adjacent to the assembly line at Toyota, and it allows each operator along
+the line to pull the cord and thereby stop the line. When an operator recognizes a problem,
+they pull the cord and stop the line. It's just an assembly
+worker version of jidoka. If you compared the Toyota Production
+System approach to quality and the approach that the Six Sigma philosophy
+has, you will notice some similarity. Let's go back to jidoka first. The idea of jidoka was detect,
+stop, and alert. Now what do you do once you
+have alerted the operators? The operators engage in
+root cause problem-solving. We'll talk about this
+in the next session and introduce the tools Ishikawa and Kaizen. Both of them are tools to help
+workers solve problems and investigate into root causes. The outcome of that is that hopefully
+you can avoid the defects in the future. You start to build quality
+into the process and use poka-yoke as a way of
+fool-proofing your operations. That gets you to a higher level of
+knowledge and the cycle begins all over. Now, the process is never perfect. You keep on cycling through
+these three stages and get better and better,
+but you never get perfect. The same is true for the capability analysis that analyzes
+the Six Sigma production system. You're looking through the cycle of
+measuring the current capability, looking ways of driving down variation, improving
+the process, measuring again, and so on. The process is never perfect. You go from three sigma to four sigma,
+until the parts that you have defective are measured in the numbers
+of one part per billion. Detect, stop, alert. The sooner we can start searching for
+the root cause of a defect, the more likely are we able
+to get to this root cause. Compare this with a crime
+scene investigation. If you try to solve a murder case
+that happened five or ten years ago, it's much harder compared to a murder
+case where you are on the crime scene, you start your investigation one or
+two seconds after the murder occurred. This is the basic idea of jidoka. Detect, stop, and alert. One way of implementing
+jidoka was the andon cord. The andon cord allows workers
+on the line to stop the process, thereby sacrificing flow
+at the benefit of quality.
