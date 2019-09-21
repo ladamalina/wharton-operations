@@ -1,0 +1,128 @@
+Throughout this course, and
+especially in this quality module, we talked a lot about
+the Toyota Production System. We talked about muda,
+we talked about jidoka and the andon cord, kanban cards, and the Ishikawa diagram. I apologize, as my Japanese pronunciation is probably
+even worse than my English one. But I think of these words and
+the concepts behind these words as really, really important. Let me be clear that I'm not
+trying to sell you a Camry, nor do I have any shares invested
+in the Toyota Motor Corporation. I'm not endorsing Toyota as a company. I'm endorsing the Toyota Production System
+as a great way of dealing with your operations. The Toyota production system is closely
+related to the idea of lean operation, which we discussed early
+on in this course. In this last session, I want to talk
+about the Toyota Production System and how it was developed by Toyota. I want to use this as a capstone
+to wrap up this course. To try to get a sense of the information
+of the Toyota Production System, we have to look back
+into automotive history. The first car was built by two Germans,
+Daimler and Benz. This was in the late 19th century. Soon, other car builders followed. However, vehicles were produced in
+job shops at very, very small scale. This made production very inefficient, and vehicles were very expensive, thus they
+were only affordable to the upper class. Ford was influenced by the idea
+of Frederick Winslow Taylor. We talked about some of Taylor's
+ideas in the productivity module. Ford also came up with the idea of an
+assembly line, a moving line rather than the workers moving, the vehicles as a full
+unit should be moving through the process. Allegedly, Henry Ford was exposed to
+this idea during a visit to a French slaughterhouse. You might have heard Ford's quote, you can
+have any color as long as it is black. Ford did not like customization. He wanted to avoid setups, and emphasizing low variety to
+keep his huge machines busy. Ford grew very rapidly. Ford was producing already in the millions
+of vehicles well before World War II. The model of Ford was built
+around economies of scale. This drove down the learning curve, and soon vehicles became affordable
+to the middle class. This allowed Ford to flood
+the market with his cars, further lowering his marginal costs. The company Toyota started out
+as a maker of automated looms. They moved into vehicle production
+just prior to World War II. The tragic events of world war left
+Japanese economy deeply depressed. The United States, following the war,
+tried to help the Japanese economy. Just as they were involved with
+the Marshall Plan in Europe, they tried to re-industrialize Japan,
+including building an automotive industry. As part of this, they moved some
+of the machines, knowledge, and management from Detroit to Japan. The goal was to replicate the highly
+successful Ford model in Japan. The problem, however,
+was is it did not work. The Japanese economy around that
+time had the total market demand of just a couple of thousands of vehicles,
+so the production volume in the US
+was about a hundred times bigger. This lack of scale made the Ford
+production system fail bitterly in Japan. Soon, the Toyota managers started to
+realize that they had to come up with their own production model. It's not that the Toyota Production System
+was born in a weekend retreat in some nice conference hotel. It was an outcome of years and
+years of work and organic problem-solving. The Toyota Production System was built
+around the idea of waste elimination. The scarcity of resources
+forced the Toyota folks to think smart about how
+to use the resources. They also emphasized
+the role of serving demand. This lack of having a domestic
+demand in Japan at the time really forced the Japanese to avoid
+playing with scale economies. Instead, they have to build a model of
+flexibility that will allow them to serve small niche markets very profitably. I would like you to think about the Toyota production system
+in the form of a big house. You will notice that this house
+includes many of the concepts that we've talked about in this course. So take a look at this slide really as
+capstone of this course, not just for the Japanese vocabulary. The top priority of the Toyota production
+system is the reduction of waste, muda. Remember the teachings of Ohno and
+seven sources of waste. The most evil source
+of waste is inventory. Now, what does the Toyota production
+system do about inventory? Inventory gets avoided by synchronizing
+production flow with market demand. Heijunka stands for
+mixed model production. Toyota factories emphasize flexibility,
+and many of their lines are able to change quickly from making one
+car to making another car. This allows them to produce exactly
+the vehicles demanded by the market, rather than having to produce
+the vehicles that are convenient to produce here in the current
+setup of the plant. Another form of inventory reduction is
+adjusting the production rate to market demand. Market demand drives attack time,
+attack time drives the staffing, and that sets a capacity,
+which avoids a buildup of inventory. We also talked in this module
+about pull instead of push. Push systems get implemented using kanban
+cards or make-to-order production, as we saw in the context of Dell. This flow piece is the central model
+of the Toyota Production System. This is complimented with the quality
+module that we saw last week. A quality module is built
+around the idea of jidoka. Detect, stop, and alert. We can apply jidoka to machines, or we can use the andon cord to empower
+assembly line workers to stop the line. Notice the type coupling between
+the inventory and the quality module. As we discussed,
+inventory covers up defects, and oftentimes get in the way
+of process improvement. This is due to the long information
+turnaround time that you have if you buffer. The Toyota Production System is built
+on the foundations of flexibility, standardization, and worker involvement. Flexibility is implemented,
+as we saw before, through takt time,
+which drives the staffing level. We've standardized tasks to keep
+the variability of processing time low and again to reduce buffers. The idea of quartile analysis is to avoid large operator-to-operator
+variance in performance. And finally, and maybe most importantly, the Toyota Production System
+is built on the people part. The part of the foundation of the Toyota
+production system is kaizen, and the problem-solving of full time workers
+using tools such as separator analysis and the Ishikawa diagram. So how do you apply
+the Toyota Production System and the lessons of this
+course to your own work? In this course, we've encountered three
+enemies that mess up your operations. These three enemies are waste,
+variability, and inflexibility. We talked about the seven sources
+of waste and the OEE framework. The OEE framework showed us that from
+the available time of a machine or a human worker,
+a lot of the time is wasted, and only relatively little
+time is spent value-added. That means by reducing the waste, I can
+get a lot more done with less resources. Variability showed us that we
+oftentimes have to hold excess capacity because customers don't
+like to wait around. Excess capacity, unfortunately,
+oftentimes means idle time. This reminded us of the tension
+between buffering and suffering. Oftentimes, variability
+also reflects poor quality. And so whenever you see variability,
+we have a problem in operations. We saw this earlier on in
+this module of Six Sigma. And finally, there's inflexibility. Matching supply with
+demand is always hard. We either have patients waiting for
+doctors, or doctors waiting for patients. The more we can do to
+adjust supply to demand, the better of an operations
+we're going to run. So how do you apply
+the Toyota Production System and the lessons of this
+course to your own work? Over the last weeks, we've encountered three enemies
+that messed up our operations. These three enemies are waste,
+variability, and inflexibility. We talked about the seven sources
+of waste in the OEE framework in the productivity module. The OEE framework showed us that from
+the available time of a machine, or a human worker,
+a lot of the time is wasted and only relatively little time
+is spent as value-add time. That means by reducing the waste, I can get a lot more done with
+less of an expensive resource. Variability further wastes capacity. In this introductory course, we have seen variability hurt
+us in the form of poor quality. We saw this earlier on in
+our discussion of Six Sigma. The other problems associated
+with variability in demand, and variability resulting from
+poor standardization, that we did not have the time
+to cover in these four weeks. And then finally, there's inflexibility. Matching supply with
+demand is always hard. We either have patients wait for
+doctors, or doctors wait for patients. The more we can do to
+adjust supply to demand, the better of an operation
+are we going to go to run. Waste, variability, and inflexibility, these are the three
+enemies of a successful operation. The Toyota Production System
+provides us a powerful framework of fighting all three of these enemies. This is why I've chosen
+the Toyota Production System as the theme of this closing session.
