@@ -1,0 +1,218 @@
+So, welcome to the review session for
+Module Five. The same format I have, this time I
+have chosen four types of problems for you, and I will show you the problem,
+explain to you the problem, and then with a little a little bit of delay,
+I'll walk through the solutions. Here is the first problem. The first problem is about a pharmacy. And the way that the prescription
+process works is you, basically, you have a doctor, and
+the doctor is prescribing prescriptions. And those get filled by the pharmacist. And the pharmacist has a quality
+assurance person working with him or her. And that person catches a good number
+of any potential problems, and then the medication ends
+up with the patient. Now the problem, though,
+as you can see in the question, the problem is that the doctor makes
+a certain percentage of errors, 2%. And the pharmacist makes some errors,
+though most of them actually get caught by the QA person,
+the quality assurance person. And so, basically, they get fixed, and
+you can think of that as a real work glue. And then finally, even the patient is
+able to recognize some of the defects. And so the question is, first, what is the likelihood that the patient
+is presented with the wrong medication? And then, finally, what is the question,
+what is the likelihood that patient ends up actually taking a medication
+that is not right for him or her? Take some time, put me on pause, and
+then give it a shot yourself, and then look at my solution. All right.
+The way that you want to think about this, this is really probability theory. And I it starts, I think it's helpful
+to just start with the doctor, here. So the doctor, basically, can make
+a mistake, which happens with a 2% probability, or make things correctly,
+which happens with a 98% probability. Now if the doctor makes a mistake, really,
+then the pharmacist doesn't really matter, and its a fifty-fifty shot
+between the adverse outcome that the patient gets the wrong
+medication, and the outcome that, basically, the problem
+is fixed by the patient. Now for the 98% cases that the pharmacist,
+the doctor makes the right decision, it's left to the pharmacist
+now to mess up, if you wish. So in 99% of the cases,
+things will look good. All right? So the pharmacist will do the right thing. And then only 1% of the cases will
+the pharmacist make a mistake, a defect. Now, if you look at those defects then,
+in 97% of the cases this defect is going to be fixed
+by the pharmacy's QA person. And in 3% of the cases,
+it will be presented to the patient, and
+then the patient is not particularly good at recognizing, they just see
+the script and the bottle with the pills. So, if they have the wrong pills in
+the bottle the patient can't tell. And so only 10% then, of the patients
+are able to catch this as the patient. So, this is catch by patient. And then 90% here,
+are leading to the negative, get an undesirable outcome. So let's look at the question,
+once we have this logic, and you really see the Swiss cheese argument
+here, that in order for the medication, especially in the right branch here,
+to end up in the body of the patient, there are lots
+of things that have to go wrong. Right?
+The pharmacist has to make a mistake, the inspection people has to miss,
+it and the patient has to miss it. And so,
+it's really a big probability term. If you look at the first question,
+the first question is looking at the patient being presented
+with a wrong medication. So we're looking at this
+node here in the tree, so it was a 2% probability
+the doctor makes a mistake, and that leads to the wrong medication
+getting to the patient. And then, we're looking at this case
+independent of whether the patient catches it or not,
+was a probability of 0.98 times 0.01, the probability of pharmacists
+making a mistake times 0.03, that probability that the QA
+person doesn't catch it, we're going to get a total probability
+that corresponds to 2.0294%. And then in the second question, we really are interested in this kind of
+this final outcome here at the bottom. So those 2% here, those 0.02, we're only interested
+in half of those cases, because the other half is
+caught by the patient, plus 0.98 times 0.01
+times 0.03 times now 0.9, which is the probability that
+the patient doesn't catch the mistake. And that gets us a total
+probability of 0.010265, I'm sorry I have to look
+at the computer for this. This is a little bit more than
+what I can do in my head. But that gives you
+the answer to the questions. Now, in the previous problem, you just
+had to compute the defect probabilities, basically, at the end of the process. Now, in this question here, we are going to look at how this
+impacts the capacity calculations. And so, specifically, you are looking
+here at the process that consists of four steps, step one, step two,
+step three, and step four. And these four steps are,
+have quality problems, in particular, the second step here has
+a defect probability of 50%. 50% of the units here
+are going to go to scrap. And then the next step has a rework loop, has a 30% probability that you're
+going to have to rework the unit, and then you're going
+to sell it over here. Again, as usual, take some time, and I will be with you in just
+a moment to give you the answers. All right. So the first question
+here looks at how many times basically does a flow unit
+that is served here as demand, how often does it have to be
+handled at each of the resources? And so, the way to think about this is
+really, well, for the last step here, step number four, every unit of
+demand has to be processed, and so that gives us the demand here of D. For the previous step, station
+number three, we have 1.3 Ds, right? Because there's a 30% rework loop here,
+and please note that the assumption
+is that rework always works, so you don't have to think about
+a rework of a rework of a rework. So that means, really,
+every unit has to go through there. And then 30% of the units have
+to go through there twice. Now, as you then go into step two,
+you have to adjust for the scrap, and there's a 50% yield loss. That means you have to go, basically,
+through 2.6 times D units at station two. And, though there's no yield
+loss here at station one, you need to do one unit at station one for
+every unit at station two. And so that's also 2.6D. But, to answer the question here,
+for the third step here, it's basically 1.3 times
+the amount of demand. All right.
+The next question is the bottleneck. And, how to find the bottleneck, well,
+let's go back to the basics here and just compute the capacity level
+of each of the resources. Basically we have a 1 over 4,
+reflecting the 4 minute processing time. And 1 over 4 units per minute at the first
+step, then 1 over 3 at the second step. A 1 over 5 at the next step. And then 1 over 2 at the last step. And that allows me to compute the implied
+utilization as a ratio of the demand rate, 2.6D, divided by the capacity,
+which is 1 over 4. And that gives me here, 10.4D. In the same way,
+I'm going to make it a 7.8D here, right? So, 2.60 times 3, or equivalent D divided by 1 over 3. 6.5D here. And 2D here for station number 4. And the biggest implied
+utilization is a bottleneck, and that is here at station number one. Okay?
+So, station number one is the bottleneck. Now, what's the process capacity? Well, the process capacity,
+assuming there is enough demand, is driven by the capacity of station one. And actually, let me take back
+what I just said a moment ago. Even if there is not enough demand, the process capacity is driven by the
+bottleneck capacity here at station one. And so, I have to figure out, well,
+what can this guy, or girl, produce? And it's fifteen units per hour,
+of course. Fifteen units per hour is basically
+one unit every four minutes. But the problem, of course,
+is that 50% of that stuff will be scrap. And so, really, only 7.5 units
+per hour will make it to the end. Notice that the rework loop
+is not impacting this number, because a rework does not
+involve the bottleneck, it really has no impact on
+the overall process capacity. Just one final not, or observation,
+if you'll let me do this quickly is, let me quickly, again,
+comment on the rework loop. Instead of putting the capacity
+here as 1 over 5 or the suppose the same time as five minutes. You can take, also,
+a more probabilistic approach, and I think I did the same class earlier on. You can say that with a probability of
+70%, I'm going to spend five minutes. And then with a probability of 30%,
+I'm going to spend ten minutes. And so, you get a 6.5 minutes per
+unit as your processing time. And that's a 1 over 6.5 as a capacity. And so, alternatively, you can just
+ignore the rework loop here for the sake of demand, and
+just put a D here, and just ask really how many unique flow units
+will show up at station number three. And then, instead of then dividing by
+1 over 5, you divide by 1 over 6.5, and that gives you the same 6.5 here. So you can choose either one of these
+approaches, whatever is easier for you. All right.
+The next question is about chicken eggs. And I went on Google here to inform myself
+about the average weight of chicken eggs. I hope I got this right. I believe it's 47 grams and I have this eco-friendly farmer here who
+is concerned about the output of his, well, it's not really his output,
+but the output of his chicken. And he takes a sample, and
+finds then, that they have basically, a minimum 47 and a weight of 2 grams. However, he can only make money on them if
+they falls into the specification interval of between 44 and 50. And so you want to basically
+do some of the six sigma calculations that we
+talked about in class. Try it out.
+All right. The first one is relatively easy,
+I would argue. Right?
+The first one is a capability score. And remember, the capability score
+looks at the upper specification of a limit minus a lower specification
+limit, which is forty-four. Divided by six times
+the standard deviation. And so, in this case here, it is simply
+6 divided by 6 times 2, or just 0.5. Now, that is a relatively
+low capability score. If you just go back through the slide
+that we discussed in class, you notice that you're
+somewhere between 1 sigma and 2 sigma process, and so this
+corresponds not to a bunch of defects. And that's what the second
+question is about. So what percentage of the eggs fall
+within the specification limits, provided by the local distributor? So, for that I have to leave my
+PowerPoint quickly and jump into Excel. And so, what I want to find out is really,
+I want to find out, from the normal distribution the upper
+specification limit is at 50. All right? And so, I have a normal distribution with
+47 mean, and a 2 standard deviation. And I'm looking at
+the cumulative normal here. And so, I have basically 93.3%
+of the eggs are below 50 grams. And so, 1 minus that probability
+here gives me the probability that this egg is going to be too heavy,
+so 6% of the cases. As far as the probability that this
+egg is too light is concerned, I can again look at
+the normal distribution. And I can look at the scenario
+that I have a 44 in that normal distribution was 47 mean and
+choose as a standard deviation. And that is, surprise,
+surprise, also 6.6%, because the mean of 47 is just right in
+the middle of the confidence interval. So if I add up those probabilities, since
+the egg can't be too heavy and too light at the same time, I'm going to get
+a probability of 13.36% that the egg is outside the confidence interval,
+or the specification interval. And then 1 minus that
+probability equals to 86%, is the probability that I had
+been fishing for in the question. All right. So that's, you know,
+that's kind of the number two here. I'm just going to write see Excel, and I'm going to put the excel
+spreadsheet up there on the wiki. And then the third question looks at,
+basically, by how much does the standard deviation have to be improved to
+get to a CP score of two-thirds? And so
+it just takes the same equation as above, which was 50 minus 44
+divided by 6 six times, and now we leave the sigma as a variable,
+as an unknown to be solved for, and that we want to be
+equals to two-thirds. And so, that is equivalent to,
+that's basically, this is 6. 6 divided by 6 cancels out, and then we
+have a 1 over sigma equals two-thirds, and that means that sigma would have to
+be reduced from the current state, which was 2 grams,
+would have to be reduced to 1.5 grams. I have to disclose here that in
+the questions that we are doing, we'll always assume that the current
+mean is actually in the middle of the specification interval. It gets a little trickier otherwise, but
+I'm sure you can figure it out in Excel, and I promise not to test you on the exam
+with that special nasty type of question. All right. My last question is a very creative one. It's a word matching problem in the
+context of the Toyota production system. And the way this works is I've provided
+you here with seven descriptions of managerial practices in operations, and
+I have seven Japanese terms here below. And what I want you to do is
+I want you to go ahead and read these statements, and
+match them to the Japanese words. Go ahead. All right. Let's tackle the first one. Let's just go A through G
+to each of these ones, and just think about what
+Japanese word comes to mind. So examples of this includes workers
+making unnecessary movements, working on defects, idle time, all of this
+stuff that shouts out waste, waste, waste. And the Japanese term for that is muda. So we have A entered here. Second, a system that enables a line
+worker to signal that she or he needs assistance from a supervisor, and that's
+used to implement the Jidoka principle. So that is the Andon cord. Now the Andon cord, this cord that
+goes adjacent to the line and that helps people to alert the supervisor,
+and notice that at that time comes
+the light starts blinking. It's not that all of the factory,
+the entire production line stops. But just a line segment. And even that is not necessarily
+always stop, because typically, even at Toyota, you're just going to
+have some buffers in there. So that's the andon cord. C, a brainstorming technique that
+helps you find root causes of usually undesirable outcomes. That is a fishbone diagram,
+also known as the Ishikawa diagram. And please don't think that Ishikawa
+stands for fish in Japanese, but I think that's just named by the inventor. Though I really have to disclose
+that I speak absolutely no Japanese, I'm sorry for that. Then, part d, workers at Toyota make
+suggestions to process improvement. It's not just management that
+comes up with these suggestions. And that is a classic Kaizan process. Kaizan, the process of
+continuous improvement. How do you control the amount of work and
+process inventory? That is an easy one, especially since
+we are running out of options here, and that looks like Kanban. Number F, or letter F. If a plant uses this technique, the
+adjacent course on the line would be mixed models, so different colors,
+sunroof no sunroof, things like that. You would be producing to demand. That was a mixed-model production
+principle that we talked about in the variety module, and
+that's the idea of Heijunka. And then, finally,
+making production problems visible and stopping the production
+upon detection of defects. That's the logic of the detect,
+stop, alert. And that's the idea behind Jidoka. Okay? If I'd been a little more creative
+maybe these letters here, if I would read them now,
+would spell out something beautiful. Sorry, they are just what they are here,
+but that, at least, concludes this review session
