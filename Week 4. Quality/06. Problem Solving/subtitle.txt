@@ -1,0 +1,69 @@
+Once you encounter abnormal variation,
+or once you detect a defect, you have to start
+investigating the root causes. But how do you find the root cause? In this session, we'll introduce some
+tools for root cause problem solving. Specifically, we'll introduce
+the concept of an Ishikawa diagram, as well as a Pareto chart. Also with these tools beyond
+to a toolbox known as Kaizen. The idea of the Toyota production
+system is that quality and process-improvement tasks don't have to
+be carried out by the management, but are carried out by
+the frontline employees. So our jobs is to put together
+a simple set of toolbox, so that we can equip with the frontline
+workers, to go about improving their work. Ishikawa diagrams are a structured
+brainstorming technique that help employees think about
+the root cause for a problem. Lets get back to our chocolate example. Maybe we want to figure out why
+the weight, that we have measured for a particular set of bags was too heavy. Let's think about the potential
+root causes of this. One set of root causes might
+relate to there being too many pieces of chocolate in the bag. Another root cause might relate to
+each of the pieces being too heavy. Then in turn, it might have been
+the bag that was too heavy, or maybe the scale was broken and
+the batch was also the right weight. And so we're struggling
+with a measurement problem. Within each of these root causes,
+there are potential sub-root causes. A famous technique in the Toyota
+production system is known as the 5 Why's. When you're root cause problem solving,
+you keep on asking, why, why, why? The bag was too heavy, why? Well, there were too many pieces in there. Why? Well, the machine that was putting
+pieces in was poorly calibrated. Why? And so on,
+until you get to the root cause. Now you'll notice there's no rocket
+science involved in these diagrams. It's just a useful brain
+summing technique. If you draw nicer than I do, you notice that this little diagram
+looks a little bit like a fish, with kind of the head of the fish up
+here and these being the fish bones. For this reason,
+this is also called a fish-bone diagram. Once you have mapped all
+the potential root causes, you go into the field and start
+collecting data about the actual defects. You'll then map out the defect
+occurrences, so the number of defects for each of the types here in the issue
+covered diagram for each of the types. And that leads to a graph
+that looks like this. So you sort them by number of occurrency
+with same too many pieces in the lead. And then all the way,
+maybe having here just two problems. The weight of the bag was the root cause. And then you can plot the cumulative
+number of problem occurrences in a curve that looks like this. Typically you find an 80-20 logic. 80% of the defects could be
+explained by 20% of the root causes. This is known as the Pareto principle. Allow me to use the examples of
+the Ishikawa diagram and the Pareto chart to make some philosophical reflections
+about operations management. Most of what we do with economics and
+most of what we have done in this course is create models of
+the underlying operations. Now, models are always
+imperfect approximation. They're hopefully good approximation, but they're still imperfect approximation of
+the underlying reality in the operations. Now, as academics,
+consultants, and managers, we are always at risk that the ideas
+that we come up here are just based on our thoughts and the models
+that we've generated in our brain. But they don't work in reality. What you've noticed is that problem
+solving in Kaizen, is that there's a strong emphasis on iteration between the
+world of reality and the world of thought. The trigger for the Improvement projects is happening
+in the field when there are defects. Because of Jidoka we stopped the process
+and start thinking about it. This reflection is happening
+in the world of thought. The Ishikowa diagram forces us
+to think about many root causes. And that probably will start
+triggering some improvement ideas. But we don't just jump to
+the idea that we like, instead we go back out in the field and
+collect data. That's what the Pareto chart does. It's an empirical support for
+which root cause we should go after first. Once we've identified the root cause that
+accounts was the majority of the defects, we'll take that back into
+the world of thought and start exploring some
+alternative solutions. Again, we're not going to run out and
+standardize these solutions too quickly. We'll take it back on the field and
+run some small scale experiments. Only once we have done so,
+can we standardize the process and say that's really a better process. So, this isolation between
+the world of thought and reality is the key signature
+of good problem solving. Rapid iteration is at
+the heart of creativity. Notice that both the Six Sigma production
+system, as well as the Toyota production system emphasize this quick iteration
+between the world of thought and reality.
